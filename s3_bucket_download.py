@@ -87,9 +87,9 @@ def ensure_parent_directory(local_path: Path) -> None:
     local_path.parent.mkdir(parents=True, exist_ok=True)
 
 
-def iter_bucket_objects(s3_client):
+def iter_bucket_objects(s3_client, bucket_name: str):
     paginator = s3_client.get_paginator("list_objects_v2")
-    for page in paginator.paginate(Bucket=get_bucket_name()):
+    for page in paginator.paginate(Bucket=bucket_name):
         for obj in page.get("Contents", []):
             yield obj
 
@@ -120,7 +120,7 @@ def download_bucket() -> int:
     total = 0
 
     try:
-        for obj in iter_bucket_objects(s3_client):
+        for obj in iter_bucket_objects(s3_client, bucket_name):
             key = obj["Key"]
             size = obj["Size"]
             total += 1
