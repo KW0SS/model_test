@@ -145,6 +145,28 @@ def ensure_runtime_directories(output_root: Path) -> tuple[Path, Path]:
     return meta_dir, log_dir
 
 
+def load_cached_company_master(meta_dir: Path) -> list[dict[str, str]]:
+    cache_path = meta_dir / "company_master.json"
+    if not cache_path.exists():
+        raise FileNotFoundError(f"Cached company master was not found: {cache_path}")
+
+    items = json.loads(cache_path.read_text(encoding="utf-8"))
+    records: list[dict[str, str]] = []
+    for item in items:
+        records.append(
+            {
+                "corp_code": str(item.get("corp_code", "")).strip(),
+                "corp_name": str(item.get("corp_name", "")).strip(),
+                "corp_eng_name": str(item.get("corp_eng_name", "")).strip(),
+                "stock_code": str(item.get("stock_code", "")).strip(),
+                "modify_date": str(item.get("modify_date", "")).strip(),
+            }
+        )
+    if not records:
+        raise RuntimeError(f"Cached company master is empty: {cache_path}")
+    return records
+
+
 def get_dart_api_key() -> str:
     dotenv_values = load_dotenv_file(ENV_PATH)
     api_key = dotenv_values.get("DART_API_KEY", "").strip()
@@ -543,7 +565,11 @@ def collect_financials(args: argparse.Namespace) -> int:
     session = make_session()
 
     print("Fetching DART corporation codes...")
-    dart_corp_codes = fetch_dart_corp_codes(session, api_key, args.request_timeout, args.retries)
+    try:
+        dart_corp_codes = fetch_dart_corp_codes(session, api_key, args.request_timeout, args.retries)
+    except Exception as exc:  # noqa: BLE001
+        print(f"Warning: failed to fetch DART corp codes, using cached company master instead: {exc}")
+        dart_corp_codes = load_cached_company_master(meta_dir)
     print("Fetching KRX listed companies...")
     listed_codes = fetch_krx_stock_codes(session, KRX_LISTED_URL, args.request_timeout, args.retries)
     print("Fetching KRX delisted companies...")
