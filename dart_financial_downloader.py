@@ -1,8 +1,10 @@
 from __future__ import annotations
 
 import argparse
+import csv
 import io
 import json
+import os
 import re
 import sys
 import time
@@ -23,6 +25,9 @@ OUTPUT_ROOT = WORKDIR / "downloads" / "dart_financials"
 DART_BASE_URL = "https://opendart.fss.or.kr/api"
 KRX_LISTED_URL = "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13"
 KRX_DELISTED_URL = "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=05"
+DEFAULT_DELISTED_CSV = Path(
+    r"C:\Users\minsu\OneDrive - 광운대학교\광운대 4학년\졸업작품\데이터\delisted_stock_code.csv"
+)
 REPORT_CODES: dict[str, str] = {
     "11013": "1Q",
     "11012": "HALF",
@@ -33,9 +38,9 @@ DEFAULT_TIMEOUT = 60
 NO_DATA_STATUSES = {"013", "014", "015", "018"}
 DAILY_LIMIT_STATUS = "020"
 STATUS_LABELS = {
-    "listed": "상장기업",
-    "delisted": "상폐기업",
-    "unlisted": "비상장기업",
+    "listed": "\uc0c1\uc7a5\uae30\uc5c5",
+    "delisted": "\uc0c1\ud3d0\uae30\uc5c5",
+    "unlisted": "\ube44\uc0c1\uc7a5\uae30\uc5c5",
 }
 DOWNLOADABLE_STATUSES = {"listed", "delisted"}
 
@@ -68,6 +73,10 @@ def load_dotenv_file(env_path: Path) -> dict[str, str]:
         key, value = line.split("=", 1)
         values[key.strip()] = value.strip().strip('"').strip("'")
     return values
+
+
+def default_delisted_csv_path() -> Path | None:
+    return DEFAULT_DELISTED_CSV if DEFAULT_DELISTED_CSV.exists() else None
 
 
 def parse_args() -> argparse.Namespace:
@@ -118,6 +127,12 @@ def parse_args() -> argparse.Namespace:
         default=OUTPUT_ROOT,
         help="Root directory for JSON output",
     )
+    parser.add_argument(
+        "--delisted-stock-code-csv",
+        type=Path,
+        default=default_delisted_csv_path(),
+        help="Optional CSV path with a stock_code column for delisted companies",
+    )
     return parser.parse_args()
 
 
@@ -142,7 +157,7 @@ def make_session() -> requests.Session:
     session = requests.Session()
     session.headers.update(
         {
-            "User-Agent": "codex-dart-financial-downloader/1.1",
+            "User-Agent": "codex-dart-financial-downloader/1.2",
             "Accept": "application/json, text/html, application/xml;q=0.9, */*;q=0.8",
         }
     )
@@ -166,9 +181,30 @@ def sanitize_filename_part(value: str) -> str:
 
 def write_json(path: Path, payload: Any) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    temp_path = path.with_suffix(path.suffix + ".tmp")
-    temp_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
-    temp_path.replace(path)
+    body = json.dumps(payload, ensure_ascii=False, indent=2)
+    last_error: PermissionError | None = None
+    for attempt in range(5):
+        temp_path = path.parent / f"{path.name}.{os.getpid()}.{attempt}.tmp"
+        try:
+            temp_path.write_text(body, encoding="utf-8")
+            os.replace(temp_path, path)
+            return
+        except PermissionError as exc:
+            last_error = exc
+            try:
+                temp_path.unlink(missing_ok=True)
+            except OSError:
+                pass
+            time.sleep(0.2 * (attempt + 1))
+        except OSError:
+            try:
+                temp_path.unlink(missing_ok=True)
+            except OSError:
+                pass
+            raise
+
+    assert last_error is not None
+    raise last_error
 
 
 def append_jsonl(path: Path, payload: dict[str, Any]) -> None:
@@ -276,16 +312,53 @@ def fetch_krx_stock_codes(
     raise RuntimeError(f"Failed to fetch KRX stock codes from {url}: {last_error}") from last_error
 
 
+def load_stock_codes_from_csv(csv_path: Path | None) -> set[str]:
+    if csv_path is None:
+        return set()
+    if not csv_path.exists():
+        raise FileNotFoundError(f"CSV file was not found: {csv_path}")
+
+    encodings = ["utf-8-sig", "utf-8", "cp949", "euc-kr"]
+    last_error: Exception | None = None
+    for encoding in encodings:
+        try:
+            with csv_path.open(encoding=encoding, newline="") as handle:
+                reader = csv.DictReader(handle)
+                if reader.fieldnames:
+                    columns = {name.strip().lower(): name for name in reader.fieldnames if name}
+                    stock_code_column = columns.get("stock_code")
+                    if stock_code_column:
+                        return {
+                            normalize_stock_code(row.get(stock_code_column, ""))
+                            for row in reader
+                            if normalize_stock_code(row.get(stock_code_column, ""))
+                        }
+
+            with csv_path.open(encoding=encoding, newline="") as handle:
+                reader = csv.reader(handle)
+                next(reader, None)
+                return {
+                    normalize_stock_code(row[0])
+                    for row in reader
+                    if row and normalize_stock_code(row[0])
+                }
+        except Exception as exc:  # noqa: BLE001
+            last_error = exc
+
+    assert last_error is not None
+    raise RuntimeError(f"Failed to read delisted stock code CSV: {last_error}") from last_error
+
+
 def classify_company(
     stock_code: str,
     listed_codes: set[str],
     delisted_codes: set[str],
 ) -> tuple[str, str]:
+    if stock_code in delisted_codes:
+        return "delisted", "Historical delisted stock code set (CSV + KRX)"
     if stock_code in listed_codes:
         return "listed", "DART corpCode + KRX current listed companies"
-    if stock_code in delisted_codes:
-        return "delisted", "DART corpCode + KRX delisted companies"
-    return "unlisted", "DART corpCode only (not found in KRX listed/delisted sets)"
+    return "unlisted", "DART corpCode only (not found in listed/delisted stock code sets)"
 
 
 def build_company_master(
@@ -433,7 +506,13 @@ def build_file_payload(
     }
 
 
-def write_master_metadata(meta_dir: Path, companies: list[CompanyRecord], filtered: list[CompanyRecord]) -> None:
+def write_master_metadata(
+    meta_dir: Path,
+    companies: list[CompanyRecord],
+    filtered: list[CompanyRecord],
+    csv_delisted_codes: set[str],
+    krx_delisted_codes: set[str],
+) -> None:
     summary = {
         "generated_at": datetime.now().astimezone().isoformat(),
         "total_companies_with_stock_code": len(companies),
@@ -442,6 +521,8 @@ def write_master_metadata(meta_dir: Path, companies: list[CompanyRecord], filter
         "unlisted_count": sum(company.status == "unlisted" for company in companies),
         "selected_companies": len(filtered),
         "selected_statuses": sorted({company.status for company in filtered}),
+        "csv_delisted_stock_code_count": len(csv_delisted_codes),
+        "krx_delisted_stock_code_count": len(krx_delisted_codes),
     }
     write_json(meta_dir / "company_master_summary.json", summary)
     write_json(meta_dir / "company_master.json", [company.__dict__ for company in companies])
@@ -466,11 +547,26 @@ def collect_financials(args: argparse.Namespace) -> int:
     print("Fetching KRX listed companies...")
     listed_codes = fetch_krx_stock_codes(session, KRX_LISTED_URL, args.request_timeout, args.retries)
     print("Fetching KRX delisted companies...")
-    delisted_codes = fetch_krx_stock_codes(session, KRX_DELISTED_URL, args.request_timeout, args.retries)
+    krx_delisted_codes = fetch_krx_stock_codes(
+        session, KRX_DELISTED_URL, args.request_timeout, args.retries
+    )
+    csv_delisted_codes = load_stock_codes_from_csv(args.delisted_stock_code_csv)
+    if args.delisted_stock_code_csv is not None:
+        print(
+            f"Loaded {len(csv_delisted_codes)} delisted stock codes from "
+            f"{args.delisted_stock_code_csv}"
+        )
+    delisted_codes = krx_delisted_codes | csv_delisted_codes
 
     companies = build_company_master(dart_corp_codes, listed_codes, delisted_codes)
     filtered_companies = filter_companies(companies, args)
-    write_master_metadata(meta_dir, companies, filtered_companies)
+    write_master_metadata(
+        meta_dir,
+        companies,
+        filtered_companies,
+        csv_delisted_codes,
+        krx_delisted_codes,
+    )
 
     estimated_requests = estimate_request_count(
         company_count=len(filtered_companies),
@@ -498,6 +594,9 @@ def collect_financials(args: argparse.Namespace) -> int:
             "sleep_seconds": args.sleep_seconds,
             "overwrite": args.overwrite,
             "output_root": str(output_root),
+            "delisted_stock_code_csv": (
+                str(args.delisted_stock_code_csv) if args.delisted_stock_code_csv else None
+            ),
         },
         "company_count": len(filtered_companies),
         "estimated_requests": estimated_requests,

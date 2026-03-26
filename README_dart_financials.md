@@ -14,6 +14,12 @@ python .\dart_financial_downloader.py --start-year 2015 --end-year 2025 --status
 python .\dart_financial_downloader.py --corp-code 00126380 --start-year 2024 --end-year 2025 --overwrite
 ```
 
+상폐기업 CSV를 명시적으로 반영하려면:
+
+```powershell
+python .\dart_financial_downloader.py --start-year 2015 --end-year 2025 --status delisted --delisted-stock-code-csv "C:\Users\minsu\OneDrive - 광운대학교\광운대 4학년\졸업작품\데이터\delisted_stock_code.csv"
+```
+
 ## 출력 구조
 
 - `downloads/dart_financials/상장기업/...`
@@ -24,7 +30,7 @@ python .\dart_financial_downloader.py --corp-code 00126380 --start-year 2024 --e
 ## 동작 방식
 
 - DART `corpCode.xml`에서 전체 법인 목록을 받습니다.
-- KRX 현재 상장법인 목록과 KRX 상장폐지 목록을 함께 대조해 `상장기업`, `상폐기업`, `비상장기업`으로 분류합니다.
+- KRX 현재 상장법인 목록과 KRX 상장폐지 목록을 함께 대조하고, 추가로 `delisted_stock_code.csv`의 `stock_code`를 상폐기업 기준으로 반영합니다.
 - 정기보고서 보고서코드 `11013`, `11012`, `11014`, `11011`을 순서대로 조회합니다.
 - 재무제표는 연결(`CFS`) 우선, 없으면 별도(`OFS`)를 조회합니다.
 - 기존 JSON 파일이 있으면 기본적으로 건너뜁니다. `--overwrite`를 주면 다시 저장합니다.
