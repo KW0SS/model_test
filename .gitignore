@@ -2,3 +2,6 @@ downloads/
 .env
 __pycache__/
 *.pyc
+*.md
+*.png
+*.pdf
