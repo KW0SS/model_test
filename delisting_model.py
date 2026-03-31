@@ -71,7 +71,7 @@ def parse_args() -> argparse.Namespace:
     train_parser.add_argument("--train-end-year", type=int, default=2020, help="학습 종료 연도")
     train_parser.add_argument("--valid-year", type=int, default=2021, help="검증 연도")
     train_parser.add_argument("--test-year", type=int, default=2022, help="테스트 연도")
-    train_parser.add_argument("--thresholds", default="0.1,0.2,0.3,0.4,0.5,0.6", help="threshold sweep 목록")
+    train_parser.add_argument("--thresholds", default="", help="threshold sweep 목록")
 
     predict_parser = subparsers.add_parser("predict", help="저장된 LogisticRegression 모델로 예측합니다.")
     predict_parser.add_argument("--model-dir", type=Path, default=DEFAULT_OUTPUT_DIR, help="모델 산출물 디렉터리")

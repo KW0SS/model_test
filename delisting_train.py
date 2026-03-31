@@ -101,7 +101,7 @@ def build_threshold_comparison(valid_frame: pd.DataFrame, probabilities: np.ndar
 
 def select_threshold(threshold_frame: pd.DataFrame) -> float:
     ordered = threshold_frame.sort_values(
-        by=["recall", "f1", "precision", "threshold"],
+        by=["f1", "precision", "recall", "threshold"],
         ascending=[False, False, False, True],
         kind="mergesort",
     ).reset_index(drop=True)
@@ -217,7 +217,7 @@ def fit_and_save_logistic(
         "threshold": selected_threshold,
         "trained_at_utc": datetime.now(timezone.utc).isoformat(),
         "split_config": split_config,
-        "threshold_selection": "validation recall -> f1 -> precision",
+        "threshold_selection": "validation f1 -> precision -> recall",
         "training_stats": training_data.stats,
         "metrics": split_metrics.to_dict(orient="records"),
     }

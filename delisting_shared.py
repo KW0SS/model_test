@@ -104,13 +104,13 @@ STATUS_PRIORITY = {
     UNLISTED_STATUS: 0,
 }
 
-DEFAULT_THRESHOLDS = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6]
+DEFAULT_THRESHOLDS = [round(value / 100, 2) for value in range(5, 100)]
 
 
 def read_csv(path: Path) -> pd.DataFrame:
     if not path.exists():
         raise FileNotFoundError(f"CSV 파일을 찾을 수 없습니다: {path}")
-    return pd.read_csv(path, encoding="utf-8-sig")
+    return pd.read_csv(path, encoding="utf-8-sig", low_memory=False)
 
 
 def read_company_master(path: Path) -> pd.DataFrame:

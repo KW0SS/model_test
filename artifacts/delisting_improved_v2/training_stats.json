@@ -1,0 +1,23 @@
+{
+  "raw_rows": 33186,
+  "usable_rows": 23222,
+  "positive_rows": 158,
+  "negative_rows": 23064,
+  "excluded_rows": 9964,
+  "excluded_y_minus_1_rows": 301,
+  "excluded_event_or_after_rows": 248,
+  "excluded_has_data_false_rows": 0,
+  "excluded_all_features_null_rows": 9415,
+  "train_rows": 11497,
+  "train_positive_rows": 129,
+  "train_negative_rows": 11368,
+  "valid_rows": 2183,
+  "valid_positive_rows": 12,
+  "valid_negative_rows": 2171,
+  "test_rows": 2262,
+  "test_positive_rows": 17,
+  "test_negative_rows": 2245,
+  "year_min": 2015,
+  "year_max": 2025,
+  "company_count": 2835
+}
