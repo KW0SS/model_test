@@ -1,0 +1,16 @@
+{
+  "input_rows": 552,
+  "excluded_rows": 208,
+  "kept_rows": 344,
+  "kept_unique_codes": 344,
+  "missing_financial_codes": 0,
+  "resolved_missing_codes": 0,
+  "downloadable_missing_codes": 0,
+  "download_target_companies": 0,
+  "download_saved_files": 0,
+  "download_skipped_existing_files": 0,
+  "download_no_data_files": 0,
+  "download_failed_requests": 0,
+  "download_quota_exceeded": false,
+  "ratio_refresh_done": true
+}

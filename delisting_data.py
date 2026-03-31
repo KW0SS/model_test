@@ -110,9 +110,56 @@ def build_delist_events_from_master(company_master_path: Path) -> pd.DataFrame:
     return working.drop_duplicates(subset=[CORP_CODE_COLUMN, CODE_COLUMN], keep="first").reset_index(drop=True)
 
 
+def normalize_event_frame_schema(events_df: pd.DataFrame) -> pd.DataFrame:
+    working = events_df.copy()
+
+    if EVENT_YEAR_COLUMN not in working.columns:
+        if "상폐일" in working.columns:
+            parsed_date = pd.to_datetime(working["상폐일"], errors="coerce")
+            working[EVENT_YEAR_COLUMN] = parsed_date.dt.year.astype("Int64")
+            working[EVENT_DATE_COLUMN] = parsed_date.dt.strftime("%Y-%m-%d")
+        else:
+            raise ValueError("상폐 사건 CSV에 event_year_Y 또는 상폐일 컬럼이 필요합니다.")
+
+    if CODE_COLUMN not in working.columns:
+        raise ValueError("상폐 사건 CSV에 종목코드 컬럼이 필요합니다.")
+
+    if COMPANY_COLUMN not in working.columns:
+        working[COMPANY_COLUMN] = pd.Series([pd.NA] * len(working), dtype="string")
+
+    if CORP_CODE_COLUMN not in working.columns:
+        working[CORP_CODE_COLUMN] = pd.Series([""] * len(working), dtype="string")
+
+    if EVENT_DATE_COLUMN not in working.columns:
+        if "상폐일" in working.columns:
+            working[EVENT_DATE_COLUMN] = working["상폐일"].astype("string")
+        else:
+            working[EVENT_DATE_COLUMN] = pd.Series([pd.NA] * len(working), dtype="string")
+
+    if EVENT_SOURCE_COLUMN not in working.columns:
+        if "폐지사유" in working.columns:
+            working[EVENT_SOURCE_COLUMN] = "폐지사유: " + working["폐지사유"].astype("string").fillna("")
+        else:
+            working[EVENT_SOURCE_COLUMN] = pd.Series(["user_event_csv"] * len(working), dtype="string")
+
+    if Y_MINUS_1_EXCLUDED_COLUMN not in working.columns:
+        working[Y_MINUS_1_EXCLUDED_COLUMN] = True
+
+    columns = [
+        CODE_COLUMN,
+        CORP_CODE_COLUMN,
+        COMPANY_COLUMN,
+        EVENT_YEAR_COLUMN,
+        EVENT_DATE_COLUMN,
+        EVENT_SOURCE_COLUMN,
+        Y_MINUS_1_EXCLUDED_COLUMN,
+    ]
+    return working[columns].copy()
+
+
 def load_or_build_events(output_dir: Path, events_path: Path | None, company_master_path: Path) -> pd.DataFrame:
     if events_path is not None:
-        events_df = read_csv(events_path)
+        events_df = normalize_event_frame_schema(read_csv(events_path))
     else:
         events_df = build_delist_events_from_master(company_master_path)
         output_dir.mkdir(parents=True, exist_ok=True)

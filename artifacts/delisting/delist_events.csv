@@ -1,473 +1,549 @@
 ﻿종목코드,corp_code,기업명,event_year_Y,event_date,event_source,y_minus_1_excluded
-030270,00100258,에스마크,2020,20201204,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-023430,00100717,아이이,2019,20191120,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-012410,00102645,글로스텍,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-014200,00103635,광림,2026,20260316,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-036490,00110051,에스케이머티리얼즈,2024,20240628,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-031990,00110307,대선조선,2022,20220128,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-044180,00111218,KD,2025,20250331,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-006580,00111227,대양제지공업,2026,20260209,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-028040,00111865,미래SCI,2022,20221103,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-017680,00112819,데코앤에프,2023,20230515,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-028090,00121251,네오퍼플,2024,20240628,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-036260,00122339,이매진아시아,2021,20210326,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-025270,00124018,부산방직공업,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-158380,00125628,삼목강업,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-111870,00125965,케이에이치미래물산,2026,20260114,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-064510,00127699,유네코,2024,20241010,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-008030,00130000,아이텍스필,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-009280,00130046,다함이텍,2023,20230223,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-016170,00130949,카카오엠,2018,20180918,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-026220,00133317,에스티씨라이프,2026,20260319,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-008340,00133715,대주코레스,2022,20220228,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-017050,00136554,스타맥스,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-019590,00136642,에스유앤피,2025,20251212,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-006210,00142698,휴리프,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-026960,00144395,동서,2026,20260323,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-004320,00144766,호반산업,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-024810,00145738,이화전기공업,2025,20250910,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-023460,00149266,씨앤에이치,2025,20250714,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-008400,00150226,씨앤중공업,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-017300,00152631,에이치비이에너지,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-022100,00155212,포스코DX,2025,20250325,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-003670,00155276,포스코퓨처엠,2025,20250325,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-065940,00155382,바이오빌,2022,20221202,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-024660,00156044,하림홀딩스,2018,20180716,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-030190,00158325,NICE평가정보,2026,20260306,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-023890,00159290,한국아트라스비엑스,2021,20210419,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-061460,00163619,한진피앤씨,2017,20170929,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-090730,00163789,심팩메탈,2018,20180717,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-037380,00164195,에이원마이크로,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-008800,00164362,행남사,2026,20260320,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-013450,00165529,동성하이켐,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-086250,00166333,화신테크,2024,20240718,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-034230,00171265,파라다이스,2025,20251031,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-027440,00172103,코리아이앤디,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-032040,00173731,씨앤에스자산관리,2022,20220225,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-068060,00175650,케이씨더블류,2026,20260319,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-037020,00178471,한와이어리스,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-032290,00183215,케이디지엠텍,2022,20220228,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-071930,00183260,에이스하이텍,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-052670,00185505,제일바이오,2026,20260223,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-053660,00188715,현진소재,2022,20221213,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-015390,00191108,엘앤씨피,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-033110,00194275,코너스톤네트웍스,2022,20220211,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-025460,00197324,팬텀엔터테인먼트그룹,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-029960,00197476,코엔텍,2026,20260320,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-031390,00198378,녹십자셀,2024,20240628,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-026180,00200956,현대정보기술,2019,20190717,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-065620,00201788,제낙스,2022,20221226,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-051170,00202778,썬코어,2018,20180820,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-036420,00203315,콘텐트리중앙,2025,20250331,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-033280,00206127,어울림엘시스,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-026260,00207223,위너지스,2018,20181012,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-028150,00207755,지에스홈쇼핑,2021,20210716,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-065410,00210537,지엔텍홀딩스,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-038340,00215976,무궁화인포메이션테크놀로지,2026,20260303,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-053740,00218052,국제엘렉트릭코리아,2022,20220526,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-043580,00222806,에임하이글로벌,2020,20200228,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-035400,00223346,쓰리디넷,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-033260,00225140,쌈지,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-058690,00225210,퓨쳐인포넷,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-066110,00226228,한프,2022,20220815,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-030420,00228916,디패션,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-032420,00229818,터보테크,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-032380,00231521,핸디소프트,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-032600,00231567,애드모바일,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-099830,00232496,씨그널엔터테인먼트그룹,2019,20190111,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-034830,00233653,한국토지신탁,2025,20250327,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-073070,00235147,에이팸,2026,20260305,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-134780,00238977,에스엠화진,2026,20260313,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-037340,00241236,에이치씨코퍼레이션,2026,20260324,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-033630,00243988,에스케이브로드밴드,2026,20260130,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-033430,00244419,디에스티,2023,20230512,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-033850,00244589,지노시스템,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-033880,00244862,룩소네이트,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-050320,00245898,에스에이치엔엘,2025,20250220,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-039850,00246347,태창파로스,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-035830,00246383,메카포럼,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-040670,00248123,와이즈파워,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-045920,00248406,화림모드,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-034600,00251190,글로웍스,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-049000,00252393,예당컴퍼니,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-039530,00252755,씨앤케이인터내셔널,2019,20190718,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-037120,00253514,한신코퍼레이션,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-036610,00254009,지디코프,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-035480,00255141,글로앤웰,2021,20210208,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-035500,00255309,써니트렌드,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-065810,00257051,유씨아이콜스,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-033720,00257194,블루스톤디앤아이,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-041030,00257529,이루넷,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-035910,00258731,현대멀티캡,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-035720,00258801,카카오,2024,20240329,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-035450,00259439,지아이바이오,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-035710,00259493,씨엘엘씨디,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-036660,00259606,플러스프로핏,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-039990,00259855,코아정보시스템,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-037250,00260639,대흥멀티미디어통신,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-036220,00260657,오상헬스케어,2025,20250502,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-037750,00260888,엔써커뮤니티,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-036360,00260903,쓰리소프트,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-038100,00260921,아이엠아이티,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-036720,00260985,한빛네트,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-038320,00261124,어울림정보기술,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-037830,00261188,글로포스트,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-035870,00261601,호성,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-039790,00261735,위노바,2021,20210224,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-062860,00261887,티엘아이,2024,20241211,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-040740,00262682,아인스엠앤엠,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-041310,00263991,모빌링크텔레콤,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-039580,00264185,피코소프트,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-040130,00264529,엔플렉스,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-033600,00264787,럭슬,2022,20220427,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-043680,00264796,스톰이앤에프,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-041060,00264857,아라온테크,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-037220,00265254,넥스텔,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-038920,00265342,에이치에스씨홀딩스,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-041140,00266943,넥슨지티,2022,20220415,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-031960,00267775,동산진흥,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-036500,00267960,에스에스컴텍,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-046240,00268358,에스브이에이치,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-010670,00268437,나노트로닉스,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-044370,00268482,조이토토,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-041450,00269339,인네트,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-040180,00269773,대양글로벌,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-046110,00277736,한일네트웍스,2025,20250324,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-046140,00280688,스튜디오에스,2025,20251212,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-052270,00291231,우전,2025,20250312,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-044060,00291860,조광아이엘아이,2025,20251208,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-039230,00295370,제이앤케이인더스트리,2025,20250224,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-050600,00296069,세라온홀딩스,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-043290,00297961,케이맥,2024,20240129,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-039670,00298687,스포츠서울,2022,20220420,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-102210,00299358,트레스,2026,20260223,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-054010,00299376,선팩테크,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-037060,00300256,시큐어소프트,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-071460,00300557,위니아,2025,20250618,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-054170,00300566,엔빅스,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-050540,00302078,엠피씨플러스,2023,20231024,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-054340,00302120,피앤텔,2023,20230222,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-074130,00302801,디아이디,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-065910,00306986,피더블유제네틱스,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-057500,00307189,에스케이엔펄스,2025,20250627,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-053890,00308948,미디어코프,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-037550,00314000,클라스타,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-086830,00317830,신양오라컴디스플레이,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-046000,00318477,모디아,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-047440,00324104,디케이씨,2020,20200228,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-048270,00328854,포넷,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-038160,00334624,팍스넷,2023,20230220,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-063280,00336570,사이버패스,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-048260,00341916,오스템임플란트,2024,20240814,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-052310,00347363,에이치원바이오,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-045760,00347619,한국통신데이타,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-052640,00347840,제네시스엔알디,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-052190,00347877,세영디앤씨,2022,20220527,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-059720,00348007,야호커뮤니케이션,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-052290,00348177,트레이스,2018,20181011,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-053040,00349468,블루젬디앤씨,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-057100,00350057,하이스마텍,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-053810,00351047,아이팩토리,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-053870,00351269,지티앤티,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-049130,00352000,하우리,2024,20240220,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-041630,00352295,인젠,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-053110,00352718,소리바다,2022,20221129,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-058530,00353018,파나케이아,2025,20251114,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-060910,00353230,프리젠,2024,20240422,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-053170,00353683,코스모스피엘씨,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-052810,00355292,아시아미디어홀딩스,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-053590,00355548,한국테크놀로지,2024,20241007,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-053330,00356158,영진코퍼레이션,2024,20240628,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-054440,00356644,엠텍반도체,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-054630,00356927,에이디칩스,2025,20251230,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-056850,00358095,코어비트,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-055000,00358545,동서정보기술,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-058420,00359474,제이웨이,2023,20230414,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-060550,00360540,우수씨엔에스,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-056340,00361114,씨유전자,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-056000,00361266,코원플레이,2023,20230330,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-066270,00361725,네이트커뮤니케이션즈,2025,20250508,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-052970,00362089,올리브나인,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-060660,00363033,한도하이테크,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-055970,00364227,에너윈,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-060300,00364795,레드로버,2024,20240522,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-065270,00364926,플렉스컴,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-057110,00366164,아이티센네트웍스,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-080440,00366793,에스제이케이,2021,20210913,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-055810,00367598,케이티씨텔레콤,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-115960,00372253,연우,2024,20240306,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-058370,00372989,비엔씨컴퍼니,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-060410,00377814,베스트플로우,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-094190,00379016,이엘케이,2022,20220104,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-290380,00384948,대유,2025,20250821,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-066340,00385451,케이에스리소스,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-065160,00389387,라임,2021,20211129,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-065180,00389679,해피드림,2020,20200228,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-058900,00392600,투미비티,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-065560,00393469,녹원씨엔아이,2024,20240729,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-068150,00394778,케이엔씨글로벌,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-066350,00397243,티엔아이,2024,20240711,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-066970,00398701,엘앤에프,2025,20251223,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-069110,00402989,유한코스메틱,2025,20251105,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-072520,00408956,제넨바이오,2025,20250618,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-057880,00410739,푸른소나무,2026,20260122,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-182690,00411905,테라셈,2022,20221017,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-068270,00413046,셀트리온,2026,20260325,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-086200,00413824,제이앤유글로벌,2018,20180508,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-071530,00416706,유에이블,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-074150,00418476,엠제이비,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-067130,00419989,클루넷,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-050640,00439053,이룸지엔지,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-058220,00441128,아리온테크놀로지,2024,20240503,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-073130,00441872,인스프리트,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-078780,00446460,아이디에스,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-095300,00447478,엔에스브이,2018,20180524,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-090460,00447609,비에이치,2023,20230620,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-112240,00450339,에스에프씨,2024,20240221,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-078610,00450728,도움,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-101970,00450931,우양에이치씨,2025,20250328,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-077960,00451268,케이이엔지,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-073930,00453752,제너시스템즈,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-087220,00454265,스틸플라워,2019,20190213,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-045890,00455112,금빛,2021,20211220,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-080000,00455981,에스엔유프리시젼,2024,20241220,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-089530,00458562,에이티세미콘,2025,20250321,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-077280,00473400,한컴지엠디,2020,20200116,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-078650,00477257,지나인제약,2024,20241202,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-078700,00477372,신지소프트,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-100090,00480367,SK오션플랜트,2023,20230419,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-096040,00480756,이트론,2026,20260211,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-079340,00480844,하이럭스,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-090120,00491336,잘만테크,2022,20220225,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-221610,00493431,자안바이오,2022,20220811,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-090740,00495554,와이앤넥스트,2026,20260224,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-082390,00496003,피엘에이,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-087730,00496225,이엠네트웍스,2022,20221124,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-078940,00501970,퀀타피아,2026,20260310,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-068240,00523307,다원시스,2026,20260305,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-108320,00525934,LX세미콘,2024,20240322,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-376190,00527011,엘비루셈,2025,20250221,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-122800,00527880,썬테크놀로지스,2020,20200212,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-081500,00535773,엑스씨이,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-085680,00540021,모빌탑,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-290510,00540340,코리아센터,2022,20221216,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-091690,00543231,디지텍시스템스,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-085370,00549925,루트로닉,2024,20240328,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-091990,00554024,셀트리온헬스케어,2024,20240112,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-097520,00564562,엠씨넥스,2023,20230227,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-123100,00569992,원익테라세미콘,2019,20190220,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-105070,00579379,금강제강,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-081970,00584362,케이엑스넥스지,2023,20230403,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-119860,00585608,커넥트웨이브,2026,20260325,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-108790,00598587,인터파크,2020,20200716,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-099660,00599887,신텍,2020,20200720,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-197210,00601641,리드,2020,20201126,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-111610,00609254,세왕,2019,20190329,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-096640,00609315,멜파스,2025,20250730,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-148140,00610490,비디아이,2024,20240607,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-114120,00618401,크루셜텍,2024,20240215,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-126870,00638539,앤에스,2025,20250410,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-151910,00653103,퓨처코어,2025,20251126,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-174880,00659684,장원테크,2026,20260114,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-150840,00661157,인트로메딕,2026,20260304,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-138690,00670085,엘아이에스,2023,20231206,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-123260,00671437,파인넥스,2020,20200410,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-114570,00673976,지스마트글로벌,2022,20221117,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-155960,00676122,지디,2026,20260320,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-141070,00678096,맥스로텍,2022,20221202,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-298870,00682992,우리벤처파트너스,2025,20250227,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-950030,00687599,네프로아이티,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-111820,00689418,지유온,2024,20240318,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-900040,00695464,차이나그레이트스타인터내셔널리미티드,2020,20200522,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-149940,00757816,모다,2024,20240220,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-136510,00763358,스마트솔루션즈,2024,20240725,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-178920,00767460,PI첨단소재,2023,20230324,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-131390,00785475,원익피앤이,2022,20221129,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-900080,00786331,에스앤씨엔진그룹리미티드,2021,20210614,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-900090,00790121,차이나하오란리사이클링유한공사,2019,20190102,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-127160,00806972,매직마이크로,2023,20230104,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-226350,00809517,아이엠텍,2022,20221209,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-141020,00812362,디에스앤엘,2024,20240103,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-160600,00818472,이큐셀,2026,20260306,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-214870,00820389,한울비앤씨,2026,20260325,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-900130,00823687,웨이포트유한공사,2017,20170725,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-130960,00838421,씨제이이앤엠,2018,20180718,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-900180,00842327,완리인터내셔널홀딩스,2018,20180528,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-181340,00861720,이즈미디어,2025,20250103,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-176440,00872452,미래오토스,2022,20220725,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-204990,00874195,코썬바이오,2024,20240628,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-225330,00914040,씨엠에스에듀,2022,20220317,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-158310,00923899,참존글로벌,2023,20230111,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-950110,00938688,SBI핀테크솔루션즈,2025,20250724,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-161570,00945208,더미동,2025,20250521,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-214310,00957568,로아앤코,2025,20250701,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-189540,00961136,씨티네트웍스,2020,20200512,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-263540,00971090,어스앤에어로스페이스,2024,20241216,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-208340,00972293,파멥신,2026,20260319,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-194510,00977696,넥스쳐,2026,20260303,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-192080,01010110,더블유게임즈,2026,20260319,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-194610,01011562,우성아이비,2023,20230223,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-138580,01014657,비즈니스온커뮤니케이션,2025,20250218,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-213090,01015726,미래테크놀로지,2021,20211005,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-204440,01038161,대우기업인수목적2호,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-204760,01041217,현대에이블기업인수목적1호,2017,20170630,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-204650,01043871,케이티비기업인수목적1호,2017,20170707,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-206660,01046179,골든브릿지제2호기업인수목적,2017,20171020,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-207720,01047567,엔에이치에스엘기업인수목적,2017,20171016,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-208870,01047716,하나머스트3호기업인수목적,2017,20170731,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-207930,01047929,에스케이제1호기업인수목적,2017,20171106,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-215580,01064315,대우기업인수목적3호,2017,20171226,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-215750,01065536,미래에셋제3호기업인수목적,2018,20180104,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-217600,01070857,켐온,2022,20221216,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-217810,01072660,엔에이치기업인수목적7호,2018,20180119,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-218710,01075047,키움제3호기업인수목적,2018,20180214,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-219580,01080410,골든브릿지제3호기업인수목적,2018,20180207,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-219860,01087079,한화에이스기업인수목적2호,2018,20180302,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-219960,01089387,유안타제2호기업인수목적,2018,20180223,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-221200,01089828,유진기업인수목적3호,2018,20180417,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-220630,01089855,맘스터치앤컴퍼니,2024,20240214,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-221950,01089961,케이비드림투게더제3호기업인수목적,2018,20180330,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-222390,01090301,케이비제8호기업인수목적,2018,20180313,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-223040,01091391,교보5호기업인수목적,2018,20180330,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-225440,01094565,이베스트기업인수목적3호,2018,20180528,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-226360,01097906,케이에이치건설,2026,20260114,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-226440,01101722,시스네오텍,2026,20260313,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-225650,01102095,쿠첸,2023,20230220,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-226850,01102800,키움제4호기업인수목적,2018,20180605,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-230490,01109186,동부제4호기업인수목적,2018,20180726,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-232270,01111020,케이비제9호기업인수목적,2018,20181012,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-232330,01111570,에스케이제3호기업인수목적,2019,20190830,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-195440,01113949,퓨전,2022,20221212,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-235010,01117103,하이에이아이1호기업인수목적,2018,20181012,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-278990,01117246,EMB,2026,20260202,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-240540,01130937,한국제4호기업인수목적,2019,20190129,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-164060,01142400,이루다,2024,20241022,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-900280,01168143,케이만금세기차륜집단유한공사,2025,20250108,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-257730,01179839,신한제3호기업인수목적,2019,20191001,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-268600,01182444,셀리버리,2025,20250610,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-262830,01194759,대신밸런스제4호기업인수목적,2019,20191010,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-264290,01197428,한화에이스기업인수목적3호,2019,20191206,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-265480,01199985,미래에셋대우기업인수목적1호,2020,20200103,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-265920,01201581,한화수성기업인수목적,2020,20200115,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-271740,01234525,한국제5호기업인수목적,2020,20200303,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-276920,01243550,아이비케이에스제7호기업인수목적,2020,20200618,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-277480,01243772,신한제4호기업인수목적,2020,20200820,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-279410,01247918,한화에이스기업인수목적4호,2020,20200703,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-281410,01257526,한국제6호기업인수목적,2020,20200727,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-299910,01259056,애닉,2025,20250214,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-287410,01267602,제이시스메디칼,2025,20251013,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-291210,01277928,한국제7호기업인수목적,2021,20210115,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-307160,01326260,하나머스트제6호기업인수목적,2021,20210708,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-307070,01336285,에스케이에이씨피씨제4호기업인수목적,2021,20210713,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-310840,01336391,엔에이치기업인수목적13호,2021,20210923,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-311270,01337220,키움제5호기업인수목적,2021,20210916,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-950180,01338724,에스앤케이,2022,20220518,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-313750,01343920,유안타제4호기업인수목적,2021,20211207,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-317030,01351114,케이비제17호기업인수목적,2021,20211104,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-317320,01351822,한화에스비아이기업인수목적,2021,20211207,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-279060,01353848,이노벡스,2025,20250102,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-323210,01366365,이베스트이안기업인수목적1호,2022,20220217,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-323940,01371312,케이비제18호기업인수목적,2022,20220204,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-323230,01384477,엠에프엠코리아,2025,20250619,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-329560,01390876,상상인이안제2호기업인수목적,2022,20220404,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-330990,01393299,케이비제19호기업인수목적,2022,20220509,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-332710,01395279,하나금융14호기업인수목적,2022,20220926,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-335890,01406618,비올메디컬,2026,20260223,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-337450,01414361,에스케이제5호기업인수목적,2022,20221018,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-340120,01414370,하이제5호기업인수목적,2022,20220728,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-340350,01414936,에스케이제6호기업인수목적,2022,20221018,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-341160,01416457,하나금융15호기업인수목적,2022,20221223,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-342550,01418543,케이비제20호기업인수목적,2022,20221229,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-343510,01419384,하나금융16호기업인수목적,2023,20230302,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-344050,01419986,신영해피투모로우제6호기업인수목적,2023,20230217,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-347140,01428249,케이프이에스제4호기업인수목적,2022,20221031,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-349720,01436336,이베스트기업인수목적5호,2022,20221226,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-351340,01440481,아이비케이에스제13호기업인수목적,2023,20230221,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-353070,01447217,에이치엠씨아이비제4호기업인수목적,2023,20230310,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-353060,01447244,에이치엠씨아이비제5호기업인수목적,2023,20230922,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-353490,01450105,미래에셋대우기업인수목적5호,2023,20230517,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-367460,01504804,유안타제7호기업인수목적,2022,20221208,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-367480,01504910,유안타제8호기업인수목적,2023,20230908,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-367340,01505450,디비금융제8호기업인수목적,2023,20230717,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-367360,01505469,디비금융제9호기업인수목적,2023,20231124,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-372290,01513404,하나머스트7호기업인수목적,2024,20240219,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-373340,01514519,유진기업인수목적6호,2023,20231213,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-366330,01514528,신한제7호기업인수목적,2023,20230918,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-377400,01526949,하이제6호기업인수목적,2024,20240125,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-377630,01528530,삼성기업인수목적4호,2023,20231227,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-380320,01534522,삼성머스트기업인수목적5호,2024,20240123,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-387310,01567520,대신밸런스제10호기업인수목적,2023,20230316,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-388220,01568875,하나금융19호기업인수목적,2023,20230523,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-388800,01569838,유진기업인수목적7호,2024,20240702,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-386580,01572489,한화플러스제2호기업인수목적,2024,20240617,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-391060,01573974,엔에이치기업인수목적20호,2024,20240514,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-393360,01574760,신한제8호기업인수목적,2024,20240430,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-396770,01576713,엔에이치기업인수목적22호,2023,20230428,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-397500,01580178,대신밸런스제11호기업인수목적,2023,20230309,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-397880,01582228,교보11호기업인수목적,2024,20240325,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-400560,01583397,하나금융20호기업인수목적,2023,20230919,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-400840,01586172,하이제7호기업인수목적,2024,20240726,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-404950,01591262,디비금융제10호기업인수목적,2024,20240104,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-405350,01591606,아이비케이에스제17호기업인수목적,2023,20231103,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-406760,01593242,하나금융21호기업인수목적,2024,20241226,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-405640,01594764,신한제9호기업인수목적,2024,20240611,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-409570,01596665,한국제10호기업인수목적,2023,20230831,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-412930,01601286,미래에셋비전기업인수목적1호,2025,20250121,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-415580,01604371,상상인제3호기업인수목적,2024,20241204,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-419270,01612608,신영해피투모로우제7호기업인수목적,2024,20240425,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-418170,01613281,하나금융22호기업인수목적,2024,20241219,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-418210,01616482,신한제10호기업인수목적,2025,20250404,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-413600,01616808,키움제6호기업인수목적,2025,20250228,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-422040,01619513,엔에이치기업인수목적23호,2025,20250210,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-421800,01620713,교보12호기업인수목적,2024,20241119,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-424140,01621280,케이비제21호기업인수목적,2025,20250204,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-425290,01624162,삼성기업인수목적6호,2025,20250211,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-426670,01631658,대신밸런스제12호기업인수목적,2023,20230420,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-426550,01632851,아이비케이에스제19호기업인수목적,2024,20240215,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-427950,01652970,하나금융23호기업인수목적,2024,20240201,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-430220,01656374,신영해피투모로우제8호기업인수목적,2025,20250822,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-430230,01658266,하나금융24호기업인수목적,2024,20240903,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-430460,01663055,한화플러스제3호기업인수목적,2024,20241213,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-430700,01663639,유안타제9호기업인수목적,2025,20250317,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-433530,01667592,키움제7호기업인수목적,2025,20250307,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-435620,01669475,하나금융25호기업인수목적,2025,20250526,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-435380,01670675,유안타제10호기업인수목적,2025,20250514,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-435870,01671197,에스케이증권제8호기업인수목적,2025,20250516,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-436530,01672053,케이비제22호기업인수목적,2024,20240503,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-436610,01672114,한국제11호기업인수목적,2024,20240927,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-438580,01674468,엔에이치기업인수목적25호,2025,20250611,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-437780,01674538,엔에이치기업인수목적24호,2025,20250526,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-438220,01675014,대신밸런스제13호기업인수목적,2024,20241120,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-439250,01675227,삼성기업인수목적7호,2025,20250602,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-439410,01675254,엔에이치기업인수목적26호,2025,20250708,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-439730,01675421,아이비케이에스제20호기업인수목적,2025,20250602,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-440200,01676989,케이비제23호기업인수목적,2023,20231103,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-440820,01677429,엔에이치기업인수목적27호,2025,20250721,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-440790,01677678,교보13호기업인수목적,2025,20250711,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-442130,01678835,유진기업인수목적9호,2025,20250709,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-442770,01682740,아이비케이에스제21호기업인수목적,2025,20251117,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-442900,01683387,미래에셋드림기업인수목적1호,2025,20251023,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-445360,01689336,비엔케이제1호기업인수목적,2025,20250728,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-445970,01689938,신영해피투모로우제9호기업인수목적,2025,20250801,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-446150,01690235,유안타제12호기업인수목적,2026,20260305,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-446190,01692321,미래에셋비전기업인수목적2호,2025,20250909,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-446750,01696275,하나26호기업인수목적,2025,20251016,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-442310,01696451,대신밸런스제14호기업인수목적,2025,20250711,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-448370,01700374,하나27호기업인수목적,2025,20251113,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-448740,01700921,삼성기업인수목적8호,2025,20251014,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-448760,01701328,아이비케이에스제22호기업인수목적,2025,20251229,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-449020,01701753,유안타제13호기업인수목적,2025,20251010,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-448830,01702424,미래에셋비전기업인수목적3호,2026,20260114,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-450050,01705625,하이제8호기업인수목적,2026,20260311,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-450410,01705777,엔에이치기업인수목적28호,2023,20231221,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-454750,01724338,하나28호기업인수목적,2025,20251027,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-454640,01724417,하나29호기업인수목적,2026,20260305,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-455250,01724709,케이비제25호기업인수목적,2026,20260128,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-456440,01731453,디비금융제11호기업인수목적,2025,20250516,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-457390,01751448,대신밸런스제15호기업인수목적,2025,20250515,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-456490,01760640,교보14호기업인수목적,2026,20260210,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-458320,01766167,케이비제26호기업인수목적,2025,20250328,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-468510,01786514,삼성기업인수목적9호,2025,20250617,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-476470,01810796,케이비제28호기업인수목적,2025,20250709,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-477530,01814312,한국제14호기업인수목적,2025,20250429,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
-478780,01817610,대신밸런스제18호기업인수목적,2026,20260114,Historical delisted stock code set (CSV + KRX) | event_year derived from company_master.modify_date,True
+000030,00000000,우리은행,2019,2019-02-13,폐지사유: 지주회사(최대주주등)의 완전자회사화 등,True
+000060,00000000,메리츠화재,2023,2023-02-21,폐지사유: 지주회사(최대주주등)의 완전자회사화 등,True
+000360,00000000,삼환기업,2015,2015-04-15,폐지사유: 자본전액잠식,True
+000420,00000000,로케트전기,2015,2015-02-24,폐지사유: 감사의견 의견거절,True
+000800,00000000,경남기업,2015,2015-04-15,폐지사유: 자본전액잠식,True
+000830,00000000,삼성물산,2015,2015-09-15,폐지사유: 해산 사유 발생,True
+001880,00000000,DL건설,2024,2024-03-04,폐지사유: 지주회사(최대주주등)의 완전자회사화 등,True
+002000,00000000,한국유리공업,2018,2018-12-13,폐지사유: 신청에 의한 상장폐지,True
+002250,00000000,알보젠코리아,2019,2019-05-20,폐지사유: 지주회사(최대주주등)의 완전자회사화 등,True
+002270,00000000,롯데푸드,2022,2022-07-20,폐지사유: 해산 사유 발생,True
+002300,00000000,한국제지,2020,2020-07-13,폐지사유: 해산 사유 발생,True
+002550,00000000,KB손해보험,2017,2017-07-21,폐지사유: 지주회사(최대주주등)의 완전자회사화 등,True
+003410,00000000,쌍용씨앤이,2024,2024-07-09,폐지사유: 지주회사(최대주주등)의 완전자회사화 등,True
+003450,00000000,KB증권,2016,2016-11-01,폐지사유: 지주회사(최대주주등)의 완전자회사화 등,True
+003600,00000000,SK,2015,2015-08-17,폐지사유: 해산 사유 발생,True
+003640,00000000,유니온스틸,2015,2015-01-16,폐지사유: 해산 사유 발생,True
+003670,00000000,포스코퓨처엠,2019,2019-05-29,폐지사유: 유가증권시장 상장,True
+003940,00000000,삼양제넥스,2016,2016-01-21,폐지사유: 해산 사유 발생,True
+004130,00000000,대덕GDS,2018,2018-12-19,폐지사유: 해산 사유 발생,True
+004200,00000000,고려개발,2020,2020-07-21,폐지사유: 해산 사유 발생,True
+004320,00000000,울트라건설,2015,2015-04-13,폐지사유: 자본전액잠식,True
+004740,00000000,보루네오가구,2017,2017-07-05,"폐지사유: 기업의 계속성, 경영의 투명성 및 기타 공익과 투자자 보호 등을 종합적으로 고려하여 상장폐지 기준에 해당한다고 결정",True
+005190,00000000,동성화학,2021,2021-04-16,폐지사유: 해산 사유 발생,True
+005450,00000000,신한,2020,2020-06-30,폐지사유: 감사의견 의견거절 2년 계속,True
+005620,00000000,대성합동지주,2017,2017-08-25,폐지사유: 해산 사유 발생,True
+005980,00000000,성지건설,2018,2018-10-04,폐지사유: 감사의견 의견거절,True
+006580,00000000,대양제지,2024,2024-06-21,폐지사유: 상장폐지 신청('24.05.17),True
+007190,00000000,한솔아트원제지,2017,2017-03-15,폐지사유: 해산 사유 발생,True
+007630,00000000,폴루스바이오팜,2022,2022-02-22,폐지사유: 감사의견 의견거절 2년 계속,True
+008000,00000000,도레이케미칼,2018,2018-03-20,폐지사유: 지주회사(최대주주등)의 완전자회사화 등,True
+008020,00000000,경남에너지,2016,2016-05-19,폐지사유: 신청에 의한 상장폐지,True
+008560,00000000,메리츠증권,2023,2023-04-25,폐지사유: 지주회사(최대주주등)의 완전자회사화 등,True
+008800,00000000,행남사,2021,2021-06-07,폐지사유: 기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정,True
+008900,00000000,티이씨코,2016,2016-05-17,폐지사유: 해산 사유 발생,True
+010050,00000000,우리종금,2023,2023-08-28,폐지사유: 지주회사(최대주주등)의 완전자회사화 등,True
+010520,00000000,현대하이스코,2015,2015-07-15,폐지사유: 해산 사유 발생,True
+011160,00000000,두산건설,2020,2020-03-24,폐지사유: 지주회사(최대주주등)의 완전자회사화 등,True
+011720,00000000,현대페인트,2016,2016-11-21,폐지사유: 감사의견 의견거절,True
+013450,00000000,동성하이켐,2015,2015-07-20,폐지사유: 피흡수합병,True
+014350,00000000,신일건업,2015,2015-04-15,폐지사유: 자본전액잠식,True
+015350,00000000,부산도시가스,2022,2022-01-18,폐지사유: 지주회사(최대주주등)의 완전자회사화 등,True
+015540,00000000,에코바이브,2023,2023-11-07,폐지사유: 감사의견 의견거절 2년 계속,True
+016170,00000000,카카오M,2018,2018-09-18,폐지사유: 피흡수합병,True
+016420,00000000,NH농협증권,2015,2015-01-20,폐지사유: 해산 사유 발생,True
+017680,00000000,데코앤이,2019,2019-11-20,폐지사유: 발행한 어음 또는 수표가 주거래은행에 의하여 최종부도로 결정되거나 거래은행에 의한 거래정지,True
+019300,00000000,태림페이퍼,2016,2016-08-11,폐지사유: 신청에 의한 상장폐지,True
+021960,00000000,KB캐피탈,2017,2017-07-21,폐지사유: 지주회사(최대주주등)의 완전자회사화 등,True
+022100,00000000,포스코DX,2024,2024-01-02,폐지사유: 유가증권시장 상장,True
+023430,00000000,아이이,2017,2017-12-20,폐지사유: 기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정,True
+023890,00000000,한국아트라스비엑스,2021,2021-04-19,폐지사유: 피흡수합병,True
+024660,00000000,하림홀딩스,2018,2018-07-16,폐지사유: 피흡수합병,True
+025270,00000000,부산방직,2016,2016-08-18,폐지사유: 피흡수합병,True
+025850,00000000,한화화인케미칼,2016,2016-03-15,폐지사유: 해산 사유 발생,True
+026180,00000000,현대정보기술,2019,2019-07-17,폐지사유: 피흡수합병,True
+026260,00000000,위너지스,2018,2018-10-11,폐지사유: 감사의견거절(감사범위 제한),True
+026960,00000000,동서,2016,2016-07-15,폐지사유: 유가증권시장 상장,True
+027390,00000000,한화갤러리아타임월드,2020,2020-04-16,폐지사유: 지주회사(최대주주등)의 완전자회사화 등,True
+028040,00000000,미래SCI,2021,2021-04-13,"폐지사유: 최근 2년간 3회 이상 공시규정 제19조제1항의 규정에 의한 사업보고서, 반기보고서 또는 분기보고서 법정제출기한 내 미제출",True
+028150,00000000,GS홈쇼핑,2021,2021-07-16,폐지사유: 피흡수합병,True
+030190,00000000,NICE평가정보,2023,2023-08-08,폐지사유: 유가증권시장 상장,True
+030270,00000000,에스마크,2020,2020-05-21,폐지사유: 감사의견거절(감사범위제한 및 계속기업 존속 불확실),True
+030790,00000000,비케이탑스,2024,2024-05-13,폐지사유: 감사의견 의견거절 2년 계속,True
+031390,00000000,녹십자셀,2021,2021-11-17,폐지사유: 피흡수합병,True
+032040,00000000,C&S자산관리,2018,2018-10-11,폐지사유: 감사의견거절(범위제한 및 계속기업 존속능력에 대한 불확실성),True
+032420,00000000,터보테크,2015,2015-01-27,폐지사유: 기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정,True
+033110,00000000,코너스톤네트웍스,2021,2021-10-08,폐지사유: 감사의견 거절(감사범위 제한 및 계속기업 존속능력에 대한 불확실성),True
+033430,00000000,디에스티,2021,2021-09-02,폐지사유: 감사의견 한정(감사범위 제한),True
+033600,00000000,럭슬,2021,2021-08-11,폐지사유: 감사의견 거절(감사범위 제한),True
+033630,00000000,SK브로드밴드,2015,2015-07-01,폐지사유: 상장폐지신청('15.6.11),True
+033660,00000000,우리금융캐피탈,2021,2021-08-27,폐지사유: 지주회사(최대주주등)의 완전자회사화 등,True
+034230,00000000,파라다이스,2024,2024-06-24,폐지사유: 유가증권시장 상장,True
+034830,00000000,한국토지신탁,2016,2016-07-11,폐지사유: 유가증권시장 상장,True
+035480,00000000,제이테크놀로지,2019,2019-12-12,폐지사유: 기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정,True
+035720,00000000,카카오,2017,2017-07-10,폐지사유: 유가증권시장 상장,True
+036220,00000000,오상헬스케어,2016,2016-05-09,폐지사유: 감사의견 거절(감사범위 제한으로 인한 의견거절),True
+036260,00000000,이매진아시아,2021,2021-02-15,폐지사유: 기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당,True
+036420,00000000,콘텐트리중앙,2019,2019-10-18,폐지사유: 유가증권시장 상장,True
+036490,00000000,SK머티리얼즈,2021,2021-12-27,폐지사유: 피흡수합병,True
+036500,00000000,에스에스컴텍,2017,2017-05-11,폐지사유: 감사의견 거절(감사범위 제한 및 계속기업 존속능력에 대한 불확실성),True
+037340,00000000,씨엘인터내셔널,2016,2016-09-08,폐지사유: 2반기 연속 자본잠식률 50% 이상,True
+037620,00000000,미래에셋증권,2017,2017-01-20,폐지사유: 해산 사유 발생,True
+038160,00000000,팍스넷,2021,2021-08-23,폐지사유: 감사의견 거절(감사범위 제한 및 계속기업 존속능력에 대한 불확실성),True
+039230,00000000,에이아이비트,2021,2021-10-06,폐지사유: 감사의견 거절(감사범위 제한),True
+039530,00000000,씨앤케이인터,2015,2015-05-19,폐지사유: 기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정,True
+039670,00000000,스포츠서울,2022,2022-04-20,폐지사유: 기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정,True
+039790,00000000,위노바,2018,2018-03-09,폐지사유: 기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정,True
+039850,00000000,태창파로스,2015,2015-05-19,폐지사유: 기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정,True
+040670,00000000,와이즈파워,2015,2015-07-16,폐지사유: 자본전액잠식 등,True
+041140,00000000,넥슨지티,2022,2022-04-15,폐지사유: 피흡수합병,True
+043290,00000000,케이맥,2021,2021-07-20,폐지사유: 피흡수합병,True
+043580,00000000,에임하이,2018,2018-08-10,폐지사유: 감사의견거절(감사범위 제한),True
+044990,00000000,에이치엔에스하이텍,2024,2024-10-25,폐지사유: 코스닥시장 이전상장,True
+045890,00000000,GV,2021,2021-12-20,폐지사유: 해산사유 발생(파산선고),True
+046110,00000000,한일네트웍스,2022,2022-10-05,폐지사유: 상장폐지 신청('22.08.31),True
+046140,00000000,SBS콘텐츠허브,2023,2023-12-18,폐지사유: 타법인의 완전자회사로 편입,True
+047440,00000000,레이젠,2018,2018-10-11,폐지사유: 감사의견거절(감사범위 제한 및 계속기업 존속능력에 대한 불확실성),True
+048260,00000000,오스템임플란트,2023,2023-08-14,폐지사유: 상장폐지 신청('23.06.28),True
+050320,00000000,에스에이치엔엘,2022,2022-05-31,폐지사유: 감사의견 거절,True
+050540,00000000,엠피씨플러스,2023,2023-05-08,폐지사유: 감사의견 거절(감사범위 제한),True
+051170,00000000,썬코어,2018,2018-03-15,폐지사유: '16사업연도 감사의견거절(계속기업 존속능력에 대한 불확실성) 및 '17사업연도 반기 감사의견거절(계속기업 존속능력에 대한 불확실성),True
+051310,00000000,플랜텍,2016,2016-04-15,폐지사유: 자본전액잠식,True
+052190,00000000,세영디앤씨,2022,2022-05-27,폐지사유: 감사의견 거절(감사범위 제한 및 계속기업 존속능력에 대한 불확실성),True
+052270,00000000,우전,2017,2017-04-13,폐지사유: 자본전액잠식 등,True
+052290,00000000,트레이스,2018,2018-10-11,폐지사유: 감사의견거절(감사범위 제한),True
+053110,00000000,소리바다,2022,2022-09-07,폐지사유: 감사의견 거절(감사범위 제한),True
+053330,00000000,영진코퍼레이션,2015,2015-04-23,폐지사유: 자본전액잠식,True
+053590,00000000,한국테크놀로지,2024,2024-10-07,폐지사유: 해산사유 발생(파산선고),True
+053660,00000000,현진소재,2022,2022-04-26,폐지사유: 감사의견 거절(감사범위 제한 및 계속기업 존속능력에 대한 불확실성),True
+053740,00000000,국제엘렉트릭,2015,2015-02-10,폐지사유: 상장폐지 신청('15.01.15),True
+053810,00000000,아이팩토리,2016,2016-09-19,폐지사유: 감사의견 거절(감사범위 제한 및 기업회계기준 위배),True
+053870,00000000,GT&T,2015,2015-10-15,폐지사유: '14사업연도 자본잠식률 50%이상 사유로 관리종목 지정 후 '15사업연도 반기 감사의견 거절,True
+054340,00000000,피앤텔,2020,2020-05-21,폐지사유: 감사의견 거절(감사범위 제한 및 계속기업 존속능력에 대한 불확실성),True
+056000,00000000,코원플레이,2023,2023-03-30,폐지사유: 감사의견 거절(감사범위 제한 및 계속기업가정 불확실성),True
+057500,00000000,에스케이엔펄스,2020,2020-12-23,폐지사유: 타법인의 완전자회사로 편입,True
+058220,00000000,아리온,2024,2024-05-03,폐지사유: 감사의견 거절(감사범위 제한 및 계속기업 존속능력에 대한 불확실성),True
+058370,00000000,비엔씨컴퍼니,2017,2017-05-08,폐지사유: 감사범위제한으로 인한 한정의견,True
+058420,00000000,제이웨이,2023,2023-04-14,폐지사유: 감사의견 거절(감사범위 제한 및 계속기업가정 불확실성),True
+058530,00000000,파나케이아,2024,2024-06-25,폐지사유: 기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정,True
+058970,00000000,엠로,2021,2021-08-13,폐지사유: 코스닥시장 이전상장,True
+060300,00000000,레드로버,2022,2022-11-04,폐지사유: 기업의 계속성 및 경영의 투명성 등을 종합적을 고려하여 상장폐지기준에 해당한다고 결정,True
+060910,00000000,프리젠,2017,2017-02-24,폐지사유: 최근 5사업연도 연속 영업손실 발생,True
+061460,00000000,한진피앤씨,2017,2017-09-29,폐지사유: 피흡수합병,True
+062580,00000000,인산가,2018,2018-09-11,폐지사유: 피흡수합병,True
+062860,00000000,티엘아이,2024,2024-11-14,폐지사유: 기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정,True
+063760,00000000,이엘피,2017,2017-04-06,폐지사유: 코스닥시장 이전상장,True
+063840,00000000,닉스테크,2016,2016-04-12,폐지사유: 피흡수합병,True
+064510,00000000,유네코,2023,2023-01-17,폐지사유: 감사의견 거절(감사범위 제한 및 계속기업 존속능력 불확실성),True
+064850,00000000,에프앤가이드,2020,2020-12-17,폐지사유: 코스닥시장 이전상장,True
+065160,00000000,에프티이앤이,2019,2019-05-03,폐지사유: 감사의견 거절(감사범위 제한),True
+065180,00000000,해피드림,2015,2015-05-04,폐지사유: 감사범위제한으로 인한 한정의견,True
+065270,00000000,플렉스컴,2016,2016-04-12,폐지사유: 자본전액잠식,True
+065370,00000000,위세아이텍,2020,2020-02-10,폐지사유: 코스닥시장 이전상장,True
+065560,00000000,녹원씨엔아이,2024,2024-07-29,폐지사유: 기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정,True
+065620,00000000,제낙스,2021,2021-08-09,폐지사유: 감사의견 거절(감사범위 제한 및 계속기업 존속능력에 대한 불확실성),True
+065940,00000000,바이오빌,2020,2020-07-31,폐지사유: 감사의견 거절(감사범위 제한 및 계속기업 존속능력에 대한 불확실성),True
+066110,00000000,한프,2022,2022-04-06,폐지사유: 감사의견 거절(감사범위 제한),True
+066270,00000000,SK컴즈,2017,2017-02-27,폐지사유: 상장폐지신청('17.02.07),True
+066350,00000000,티에스엠텍,2015,2015-05-20,폐지사유: 발행한 어음 또는 수표가 주거래은행에 의하여 최종부도로 결정되거나 거래은행에 의한 거래정지,True
+066970,00000000,엘앤에프,2024,2024-01-29,폐지사유: 유가증권시장 상장,True
+067370,00000000,선바이오,2022,2022-10-05,폐지사유: 코스닥시장 이전상장,True
+068060,00000000,KCW,2015,2015-09-18,"폐지사유: 기업의 계속성, 경영의 투명성 또는 그 밖에 코스닥시장의 건전성 등을 종합적으로 고려하여 상장폐지 기준에 해당한다고 결정",True
+068150,00000000,케이엔씨글로벌,2017,2017-03-07,폐지사유: 기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정,True
+068270,00000000,셀트리온,2018,2018-02-09,폐지사유: 유가증권시장 상장,True
+068400,00000000,SK렌터카,2024,2024-01-31,폐지사유: 지주회사(최대주주등)의 완전자회사화 등,True
+068870,00000000,LG생명과학,2017,2017-01-17,폐지사유: 해산 사유 발생,True
+069110,00000000,유한코스메틱,2023,2023-10-20,폐지사유: 감사의견 거절(감사범위 제한),True
+071930,00000000,에이스하이텍,2015,2015-07-10,폐지사유: 감사의견거절(감사범위 제한),True
+073070,00000000,에이팸,2021,2021-06-04,폐지사유: 기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당,True
+074130,00000000,디아이디,2015,2015-07-23,"폐지사유: 기업의 계속성, 경영의 투명성 또는 그 밖에 코스닥시장의 건전성 등을 종합적으로 고려하여 상장폐지 기준에 해당한다고 결정",True
+074150,00000000,엠제이비,2016,2016-09-05,폐지사유: 감사의견거절(감사범위 제한),True
+077280,00000000,한컴지엠디,2020,2020-01-16,폐지사유: 피흡수합병,True
+078650,00000000,지나인제약,2023,2023-07-21,폐지사유: 감사의견 거절(감사범위 제한 및 계속기업가정 불확실성),True
+078780,00000000,아이디에스,2016,2016-04-28,폐지사유: '14사업연도 자본잠식률 50%이상 사유로 관리종목 지정 후 '15사업연도 반기 감사의견 거절,True
+079440,00000000,오렌지라이프,2020,2020-02-14,폐지사유: 지주회사(최대주주등)의 완전자회사화 등,True
+079660,00000000,사조해표,2019,2019-06-26,폐지사유: 해산 사유 발생,True
+080000,00000000,에스엔유,2024,2024-12-20,폐지사유: 피흡수합병,True
+080440,00000000,에스제이케이,2021,2021-09-13,폐지사유: 해산사유 발생(파산선고),True
+081210,00000000,아시아4호,2015,2015-01-20,폐지사유: 존속기간 만료,True
+081930,00000000,아시아8호,2015,2015-02-17,폐지사유: 신청에 의한 상장폐지,True
+081940,00000000,아시아9호,2015,2015-01-08,폐지사유: 존속기간 만료,True
+081970,00000000,넥스지,2018,2018-10-11,폐지사유: 감사의견거절(감사범위제한),True
+082220,00000000,프렉코,2015,2015-09-25,폐지사유: 지정자문인 선임계약의 해지한 날의 다음날부터 30일이내(2015.09.11限) 지정자문인 선임계약 미체결,True
+082240,00000000,아시아5호,2015,2015-03-13,폐지사유: 신청에 의한 상장폐지,True
+082250,00000000,아시아6호,2015,2015-03-13,폐지사유: 신청에 의한 상장폐지,True
+082260,00000000,아시아7호,2015,2015-03-13,폐지사유: 신청에 의한 상장폐지,True
+082390,00000000,피엘에이,2016,2016-07-25,폐지사유: 기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정,True
+083350,00000000,동북아10호선박투자,2017,2017-06-14,폐지사유: 신청에 의한 상장폐지,True
+083360,00000000,동북아11호선박투자,2017,2017-06-14,폐지사유: 신청에 의한 상장폐지,True
+083370,00000000,동북아12호선박투자,2020,2020-06-23,폐지사유: 존속기간 만료,True
+083380,00000000,동북아13호선박투자,2020,2020-05-04,폐지사유: 존속기간 만료,True
+083390,00000000,동북아14호선박투자,2017,2017-06-14,폐지사유: 신청에 의한 상장폐지,True
+083570,00000000,아시아10호,2017,2017-06-15,폐지사유: 신청에 의한 상장폐지,True
+083580,00000000,아시아퍼시픽11호,2017,2017-06-15,폐지사유: 신청에 의한 상장폐지,True
+083590,00000000,아시아퍼시픽12호,2017,2017-06-15,폐지사유: 신청에 의한 상장폐지,True
+083600,00000000,아시아퍼시픽13호,2017,2017-06-15,폐지사유: 신청에 의한 상장폐지,True
+083610,00000000,아시아퍼시픽14호,2017,2017-06-20,폐지사유: 신청에 의한 상장폐지,True
+083620,00000000,아시아퍼시픽15호,2017,2017-07-31,폐지사유: 존속기간 만료,True
+084440,00000000,유비온,2022,2022-11-18,폐지사유: 코스닥시장 이전상장,True
+085370,00000000,루트로닉,2023,2023-10-27,폐지사유: 타법인의 완전자회사로 편입,True
+085980,00000000,세화피앤씨,2017,2017-09-19,폐지사유: 피흡수합병,True
+086080,00000000,다이노나,2021,2021-11-22,폐지사유: 피흡수합병,True
+086200,00000000,제이앤유글로벌,2016,2016-05-09,폐지사유: 감사의견거절(감사범위 제한),True
+086250,00000000,화신테크,2021,2021-08-31,폐지사유: 감사의견 거절(감사범위 제한),True
+086830,00000000,신양오라컴,2017,2017-05-08,폐지사유: 감사의견 거절(감사범위 제한 및 계속기업 존속능력에 대한 불확실성),True
+087220,00000000,스틸플라워,2018,2018-05-08,폐지사유: 감사의견거절(감사범위 제한 및 계속기업 존속능력에 대한 불확실성),True
+087730,00000000,이엠네트웍스,2021,2021-10-08,폐지사유: 기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정,True
+089530,00000000,에이티세미콘,2024,2024-09-06,폐지사유: 기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지 기준에 해당한다고 결정,True
+090120,00000000,잘만테크,2015,2015-05-13,폐지사유: 감사의견 거절(계속기업 존속능력에 대한 불확실성 및 감사범위 제한),True
+090460,00000000,비에이치,2023,2023-06-20,폐지사유: 유가증권시장 상장,True
+090540,00000000,코크렙8호,2015,2015-01-16,폐지사유: 해산 사유 발생,True
+090730,00000000,SIMPAC Metal,2018,2018-07-17,폐지사유: 피흡수합병,True
+090740,00000000,연이비앤티,2022,2022-10-17,폐지사유: 기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정,True
+090970,00000000,코리아01호,2017,2017-04-25,폐지사유: 감사의견 의견거절,True
+090980,00000000,코리아02호,2017,2017-04-25,폐지사유: 감사의견 의견거절,True
+090990,00000000,코리아03호,2017,2017-04-25,폐지사유: 감사의견 의견거절,True
+091000,00000000,코리아04호,2017,2017-04-25,폐지사유: 감사의견 의견거절,True
+091270,00000000,유디피,2018,2018-04-18,폐지사유: 지정자문인 선임계약 해지 후 30일이내 미체결(2018.04.04限),True
+091690,00000000,디지텍시스템,2015,2015-01-21,폐지사유: 감사의견 거절(감사범위 제한 및 계속기업 존속능력에 대한 불확실성),True
+091990,00000000,셀트리온헬스케어,2024,2024-01-12,폐지사유: 피흡수합병,True
+092630,00000000,바다로3호,2016,2016-06-13,폐지사유: 신청에 의한 상장폐지,True
+092870,00000000,엑시콘,2015,2015-10-22,폐지사유: 코스닥시장 이전상장,True
+094190,00000000,이엘케이,2020,2020-05-22,폐지사유: 감사의견 거절(감사범위 제한 및 계속기업 존속능력에 대한 불확실성),True
+094360,00000000,칩스앤미디어,2015,2015-08-05,폐지사유: 코스닥시장 이전상장,True
+095300,00000000,엔에스브이,2017,2017-09-12,"폐지사유: 감사의견 거절(내부회계관리제도상의 취약점, 계속기업가정의 불확실성 및 재고자산 관련 감사범위 제한)",True
+096300,00000000,베트남개발1,2023,2023-02-02,폐지사유: 해산 사유 발생,True
+096640,00000000,멜파스,2023,2023-07-17,폐지사유: 기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정,True
+097520,00000000,엠씨넥스,2021,2021-07-06,폐지사유: 유가증권시장 상장,True
+099340,00000000,하나니켈1호,2020,2020-07-01,폐지사유: 존속기간 만료,True
+099350,00000000,하나니켈2호,2020,2020-07-01,폐지사유: 존속기간 만료,True
+099660,00000000,신텍,2018,2018-07-09,폐지사유: 발행한 어음 또는 수표가 주거래은행에 의하여 최종부도로 결정되거나 거래은행에 의한 거래정지,True
+099830,00000000,씨그널엔터테인먼트그룹,2018,2018-05-04,폐지사유: 감사의견거절(감사범위 제한),True
+100090,00000000,SK오션플랜트,2023,2023-04-19,폐지사유: 유가증권시장 상장,True
+101060,00000000,SBS미디어홀딩스,2022,2022-01-18,폐지사유: 해산 사유 발생,True
+101360,00000000,에코앤드림,2020,2020-07-30,폐지사유: 코스닥시장 이전상장,True
+101970,00000000,우양에이치씨,2015,2015-03-17,폐지사유: 발행한 어음 또는 수표가 주거래은행에 의하여 최종부도로 결정되거나 거래은행에 의한 거래 정지,True
+102210,00000000,에이치디,2021,2021-04-19,폐지사유: 기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정,True
+103130,00000000,웅진에너지,2020,2020-06-01,폐지사유: 감사의견 의견거절 2년 계속,True
+103650,00000000,에이치앤아이,2016,2016-07-14,폐지사유: 최종부도 발생,True
+104110,00000000,신성이엔지,2017,2017-01-02,폐지사유: 해산 사유 발생,True
+104120,00000000,신성에프에이,2017,2017-01-02,폐지사유: 해산 사유 발생,True
+107640,00000000,한중엔시에스,2024,2024-06-24,폐지사유: 코스닥시장 이전상장,True
+108320,00000000,LX세미콘,2022,2022-11-03,폐지사유: 유가증권시장 상장,True
+108790,00000000,인터파크,2020,2020-07-16,폐지사유: 피흡수합병,True
+110570,00000000,넥솔론,2017,2017-04-17,폐지사유: 자본전액잠식,True
+110660,00000000,세신버팔로,2018,2018-10-11,폐지사유: 지정자문인 선임계약 해지 후 30일이내 미체결(2018.9.20限),True
+111610,00000000,승화프리텍,2016,2016-01-25,"폐지사유: 기업의 계속성, 경영의 투명성 또는 그 밖에 코스닥시장의 건전성 등을 종합적으로 고려하여 상장폐지 기준에 해당한다고 결정",True
+111820,00000000,지유온,2021,2021-09-30,폐지사유: 기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정,True
+112240,00000000,에스에프씨,2020,2020-06-30,폐지사유: 감사의견 거절(감사범위 제한),True
+114120,00000000,크루셜텍,2024,2024-02-15,폐지사유: 기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정,True
+114570,00000000,지스마트글로벌,2022,2022-02-23,폐지사유: 감사의견 거절(감사범위 제한 및 계속기업 존속능력에 대한 불확실성),True
+115390,00000000,락앤락,2024,2024-12-09,폐지사유: 지주회사(최대주주등)의 완전자회사화 등,True
+115960,00000000,연우,2024,2024-03-06,폐지사유: 타법인의 완전자회사로 편입,True
+117930,00000000,한진해운,2017,2017-03-07,폐지사유: 해산 사유 발생,True
+119860,00000000,커넥트웨이브,2024,2024-09-24,폐지사유: 타법인의 완전자회사로 편입,True
+120780,00000000,전우정밀,2021,2021-05-06,폐지사유: 분산요건 미달,True
+121550,00000000,코크렙15호,2015,2015-10-16,폐지사유: 매출액 미달 2년 계속,True
+122050,00000000,아이엘사이언스,2019,2019-12-27,폐지사유: 피흡수합병,True
+122640,00000000,예스티,2015,2015-12-16,폐지사유: 코스닥시장 이전상장,True
+122800,00000000,썬텍,2020,2020-02-12,폐지사유: 기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정,True
+123010,00000000,알엔티엑스,2016,2016-07-20,폐지사유: 코스닥시장 이전상장,True
+123100,00000000,원익테라세미콘,2019,2019-02-20,폐지사유: 피흡수합병,True
+123260,00000000,파인넥스,2020,2020-04-10,"폐지사유: 제28조제1항제9호에 따라 관리종목 지정 후 공시규정 제19조제1항에 따른 사업보고서 법정제출기한 내 미제출, 최근 2년간 3회 이상 공시규정 제19조제1항의 규정에 의한 사업보고서, 반기보고서 또는 분기보고서 법정제출기한 내 미제출",True
+126340,00000000,비나텍,2020,2020-09-23,폐지사유: 코스닥시장 이전상장,True
+126870,00000000,뉴로스,2022,2022-10-26,폐지사유: 감사의견 거절(감사범위 제한 및 계속기업 존속능력 불확실성),True
+127160,00000000,매직마이크로,2015,2015-11-19,폐지사유: 코스닥시장 이전상장,True
+130960,00000000,CJ E&M,2018,2018-07-18,폐지사유: 피흡수합병,True
+131390,00000000,원익피앤이,2022,2022-11-29,폐지사유: 피흡수합병,True
+134780,00000000,화진,2020,2020-07-02,폐지사유: 감사의견거절(감사범위제한),True
+135160,00000000,무송지오씨,2023,2023-05-02,폐지사유: 발행한 어음 또는 수표가 주거래은행에 의하여 최종부도로 결정되거나 거래은행에 의한 거래정지,True
+135270,00000000,세종머티리얼즈,2019,2019-10-02,폐지사유: 파산선고에 따른 해산사유 발생,True
+136510,00000000,스마트솔루션즈,2024,2024-07-25,폐지사유: 감사의견 거절,True
+138250,00000000,엔에스쇼핑,2022,2022-03-22,폐지사유: 지주회사(최대주주등)의 완전자회사화 등,True
+138290,00000000,지성이씨에스,2018,2018-08-22,폐지사유: 상장폐지 신청('18.7.19),True
+138440,00000000,이코리아리츠,2015,2015-09-16,"폐지사유: 기업의 계속성, 경영의 투명성 및 기타 공익과 투자자 보호 등을 종합적으로 고려하여 상장폐지 기준에 해당한다고 결정",True
+138580,00000000,비즈니스온,2024,2024-11-22,폐지사유: 타법인의 완전자회사로 편입,True
+138690,00000000,엘아이에스,2023,2023-12-06,폐지사유: 기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정,True
+139200,00000000,하이골드2호,2017,2017-01-11,폐지사유: 신청에 의한 상장폐지,True
+140290,00000000,청광건설,2023,2023-05-08,폐지사유: 상장폐지 신청,True
+140890,00000000,트러스제7호,2019,2019-05-07,폐지사유: 해산 사유 발생,True
+141020,00000000,디에스앤엘,2024,2024-01-03,폐지사유: 기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정,True
+141070,00000000,맥스로텍,2021,2021-09-16,폐지사유: 발행한 어음 또는 수표가 주거래은행에 의하여 최종부도로 결정되거나 거래은행에 의한 거래정지,True
+142760,00000000,모아라이프플러스,2016,2016-07-07,폐지사유: 코스닥시장 이전상장,True
+144620,00000000,코오롱머티리얼,2021,2021-11-05,폐지사유: 지주회사(최대주주등)의 완전자회사화 등,True
+144630,00000000,씨아이에스,2017,2017-01-20,폐지사유: 피흡수합병,True
+144740,00000000,피엠디아카데미,2018,2018-08-07,폐지사유: 지정자문인 선임계약 해지 후 30일이내 미체결(2018.07.24限),True
+148140,00000000,비디아이,2017,2017-11-09,폐지사유: 코스닥시장 이전상장,True
+148250,00000000,알엔투테크놀로지,2016,2016-06-22,폐지사유: 코스닥시장 이전상장,True
+148780,00000000,비큐AI,2022,2022-06-20,폐지사유: 코스닥시장 이전상장,True
+149130,00000000,케이비부국위탁리츠,2015,2015-03-02,폐지사유: 감사의견 부적정,True
+149940,00000000,모다,2020,2020-07-10,폐지사유: 감사의견거절(감사범위 제한),True
+150440,00000000,피노텍,2024,2024-03-21,폐지사유: 외부감사인의 감사의견 의견거절,True
+151750,00000000,테라텍,2016,2016-02-23,폐지사유: 상장폐지 신청('16.02.01),True
+152330,00000000,코리아오토글라스,2020,2020-12-18,폐지사유: 해산 사유 발생,True
+153360,00000000,하이골드3호,2022,2022-04-11,폐지사유: 감사의견 부적정,True
+154030,00000000,아시아종묘,2018,2018-02-12,폐지사유: 코스닥시장 이전상장,True
+155900,00000000,바다로19호,2023,2023-11-24,폐지사유: 신청에 의한 상장폐지,True
+155960,00000000,지디,2018,2018-10-12,폐지사유: 감사의견 거절(감사범위 제한),True
+156100,00000000,엘앤케이바이오,2016,2016-11-30,폐지사유: 코스닥시장 이전상장,True
+156170,00000000,비앤에스미디어,2017,2017-07-13,폐지사유: 지정자문인 선임계약 해지 후 30일이내 미체결(2017.6.29限),True
+158300,00000000,에스에이티이엔지,2021,2021-12-09,폐지사유: 피흡수합병,True
+158310,00000000,참존글로벌,2022,2022-11-09,폐지사유: 기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정,True
+158380,00000000,삼목강업,2016,2016-04-21,폐지사유: 피흡수합병,True
+159650,00000000,하이골드8호,2020,2020-04-27,폐지사유: 감사의견 부적정,True
+160350,00000000,웹솔루스,2015,2015-04-30,폐지사유: 감사의견 거절(감사범위 제한 및 계속기업 존속능력에 대한 불확실성),True
+161570,00000000,THE MIDONG,2024,2024-06-17,폐지사유: 기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정,True
+163430,00000000,디피코,2024,2024-06-18,폐지사유: '22사업연도 감사의견 의견거절 및 '23사업연도 사업보고서 미제출,True
+164060,00000000,이루다,2024,2024-10-22,폐지사유: 피흡수합병,True
+165270,00000000,금오하이텍,2017,2017-06-07,폐지사유: 최종부도 발생,True
+167380,00000000,나무기술,2018,2018-12-11,폐지사유: 피흡수합병,True
+172580,00000000,하이골드12호,2022,2022-01-03,폐지사유: 신청에 의한 상장폐지,True
+173130,00000000,오파스넷,2018,2018-08-24,폐지사유: 코스닥시장 이전상장,True
+176440,00000000,에이치엔티,2022,2022-06-27,폐지사유: 기업의 계속성 및 경영의 투명성 등을 종합적을 고려하여 상장폐지기준에 해당한다고 결정,True
+176560,00000000,포인트엔지니어링,2019,2019-07-16,폐지사유: 피흡수합병,True
+176750,00000000,듀켐바이오,2024,2024-12-20,폐지사유: 코스닥시장 이전상장,True
+177350,00000000,베셀,2015,2015-06-19,폐지사유: 코스닥시장 이전상장,True
+178920,00000000,PI첨단소재,2021,2021-08-09,폐지사유: 유가증권시장 상장,True
+179280,00000000,스탠다드펌,2015,2015-04-30,폐지사유: 감사의견 거절(감사범위 제한 및 계속기업 존속능력에 대한 불확실성),True
+179440,00000000,비지스틸,2016,2016-07-07,폐지사유: 상장폐지 신청('16.6.14),True
+179530,00000000,애드바이오텍,2022,2022-01-24,폐지사유: 코스닥시장 이전상장,True
+180400,00000000,DXVX,2015,2015-11-20,폐지사유: 코스닥시장 이전상장,True
+181340,00000000,이즈미디어,2024,2024-07-10,폐지사유: 감사범위 제한,True
+181980,00000000,자원메디칼,2015,2015-04-15,폐지사유: 상장폐지 신청('15.03.23),True
+182690,00000000,테라셈,2022,2022-10-17,폐지사유: 감사의견 거절(감사범위 제한),True
+183350,00000000,LPK로보틱스,2020,2020-06-17,"폐지사유: 외부감사인의 감사의견 거절(감사범위 제한), 감사의견 한정(감사범위 제한)",True
+183410,00000000,골프존데카,2024,2024-02-22,폐지사유: 타법인의 완전자회사로 편입,True
+183490,00000000,엔지켐생명과학,2018,2018-02-21,폐지사유: 코스닥시장 이전상장,True
+185280,00000000,이푸른,2016,2016-12-05,폐지사유: 지정자문인 선임계약 해지 후 30일이내 미체결(2016.11.21限),True
+185490,00000000,아이진,2015,2015-11-16,폐지사유: 코스닥시장 이전상장,True
+186230,00000000,그린플러스,2019,2019-08-07,폐지사유: 코스닥시장 이전상장,True
+189330,00000000,씨이랩,2021,2021-02-24,폐지사유: 코스닥시장 이전상장,True
+189540,00000000,씨티네트웍스,2020,2020-05-12,폐지사유: 감사의견 거절(계속기업 존속능력에 대한 불확실성),True
+189700,00000000,디피앤케이,2017,2017-08-31,폐지사유: 지정자문인 선임계약 해지 후 30일이내 미체결(2017.08.17限),True
+192080,00000000,더블유게임즈,2019,2019-03-12,폐지사유: 유가증권시장 상장,True
+192240,00000000,나이코,2016,2016-12-23,폐지사유: 상장폐지 신청('16.12.9),True
+192520,00000000,경남은행,2015,2015-06-23,폐지사유: 지주회사(최대주주등)의 완전자회사화 등,True
+192530,00000000,광주은행,2018,2018-10-26,폐지사유: 지주회사(최대주주등)의 완전자회사화 등,True
+194510,00000000,파티게임즈,2020,2020-09-09,폐지사유: 감사의견거절(감사범위 제한),True
+194610,00000000,우성아이비,2018,2018-10-12,폐지사유: 감사의견거절(감사범위 제한 및 계속기업 존속능력에 대한 불확실성),True
+194860,00000000,SY이노베이션,2017,2017-04-12,폐지사유: 감사의견 거절(감사범위제한),True
+195440,00000000,퓨전,2021,2021-06-10,폐지사유: 감사의견 거절(감사범위 제한 및 계속기업 존속능력에 대한 불확실성),True
+197140,00000000,디지캡,2018,2018-09-07,폐지사유: 코스닥시장 이전상장,True
+197210,00000000,리드,2015,2015-11-20,폐지사유: 코스닥시장 이전상장,True
+198940,00000000,한주라이트메탈,2017,2017-02-21,폐지사유: 상장폐지 신청('17.1.18),True
+199800,00000000,툴젠,2021,2021-12-10,폐지사유: 코스닥시장 이전상장,True
+199870,00000000,(주)배터리솔루션,2018,2018-03-28,폐지사유: 지정자문인 선임계약 해지후 30일이내 미체결(18.3.14限),True
+200350,00000000,아티스트스튜디오,2021,2021-12-30,폐지사유: 코스닥시장 이전상장,True
+203400,00000000,에이비온,2021,2021-09-08,폐지사유: 코스닥시장 이전상장,True
+203450,00000000,유니온바이오메트릭스,2016,2016-12-07,폐지사유: 코스닥시장 이전상장,True
+204440,00000000,대우스팩2호,2017,2017-05-29,폐지사유: 상장예비심사 청구서 미제출로 관리종목 지정 후 1개월 이내 동 사유 미해소,True
+204650,00000000,케이티비스팩1호,2017,2017-07-07,폐지사유: 상장예비심사 청구서 미제출로 관리종목 지정 후 1개월 이내 동 사유 미해소,True
+204690,00000000,다린,2017,2017-08-02,폐지사유: 상장폐지 신청('17.07.28),True
+204760,00000000,현대에이블스팩1호,2017,2017-06-15,폐지사유: 상장예비심사 청구서 미제출로 관리종목 지정 후 1개월 이내 동 사유 미해소,True
+204990,00000000,코썬바이오,2016,2016-12-09,폐지사유: 코스닥시장 이전상장,True
+205290,00000000,케미메디,2020,2020-05-13,폐지사유: 외부감사인의 감사의견 의견거절(감사범위 제한),True
+206660,00000000,골든브릿지제2호스팩,2017,2017-10-20,폐지사유: 상장예비심사 청구서 미제출로 관리종목 지정 후 1개월 이내 동 사유 미해소,True
+207230,00000000,디와이엘엔제이,2016,2016-07-26,폐지사유: 지정자문인 선임계약의 해지한 날의 다음날부터 30일이내(2016.07.12限) 지정자문인 선임계약 미체결,True
+207720,00000000,엔에이치SL스팩,2017,2017-10-16,폐지사유: 상장예비심사 청구서 미제출로 관리종목 지정 후 1개월 이내 동 사유 미해소,True
+207930,00000000,SK1호스팩,2017,2017-11-06,폐지사유: 상장예비심사 청구서 미제출로 관리종목 지정 후 1개월 이내 동 사유 미해소,True
+208870,00000000,하나머스트3호스팩,2017,2017-07-31,폐지사유: 상장예비심사 청구서 미제출로 관리종목 지정 후 1개월 이내 동 사유 미해소,True
+210120,00000000,캔버스엔,2023,2023-08-17,폐지사유: 코스닥시장 이전상장,True
+210610,00000000,소프트캠프,2019,2019-12-30,폐지사유: 피흡수합병,True
+211050,00000000,인카금융서비스,2022,2022-02-16,폐지사유: 코스닥시장 이전상장,True
+213090,00000000,미래테크놀로지,2021,2021-10-05,폐지사유: 피흡수합병,True
+214310,00000000,에스엘에너지,2024,2024-12-23,폐지사유: 기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정,True
+214610,00000000,롤링스톤,2020,2020-10-22,폐지사유: 코스닥시장 이전상장,True
+215050,00000000,비엔디생활건강,2023,2023-04-21,폐지사유: 감사의견 의견거절(감사범위제한),True
+215580,00000000,대우스팩3호,2017,2017-12-26,폐지사유: 상장예비심사 청구서 미제출로 관리종목 지정 후 1개월 이내 동 사유 미해소,True
+215750,00000000,미래에셋제3호스팩,2018,2018-01-04,폐지사유: 상장예비심사 청구서 미제출로 관리종목 지정 후 1개월 이내 동 사유 미해소,True
+216280,00000000,원텍,2022,2022-06-30,폐지사유: 피흡수합병,True
+217600,00000000,켐온,2022,2022-12-16,폐지사유: 피흡수합병,True
+217810,00000000,엔에이치스팩7호,2018,2018-01-19,폐지사유: 상장예비심사 청구서 미제출로 관리종목 지정 후 1개월 이내 동 사유 미해소,True
+218710,00000000,키움스팩3호,2018,2018-02-14,폐지사유: 상장예비심사 청구서 미제출로 관리종목 지정 후 1개월 이내 동 사유 미해소,True
+219420,00000000,링크제니시스,2018,2018-02-05,폐지사유: 코스닥시장 이전상장,True
+219580,00000000,골든브릿지제3호스팩,2018,2018-02-07,폐지사유: 상장예비심사 청구서 미제출로 관리종목 지정 후 1개월 이내 동 사유 미해소,True
+219750,00000000,한국비티비,2018,2018-09-21,폐지사유: 코스닥시장 이전상장,True
+219860,00000000,한화에이스스팩2호,2018,2018-03-02,폐지사유: 상장예비심사 청구서 미제출로 관리종목 지정 후 1개월 이내 동 사유 미해소,True
+219960,00000000,유안타제2호스팩,2018,2018-02-23,폐지사유: 상장예비심사 청구서 미제출로 관리종목 지정 후 1개월 이내 동 사유 미해소,True
+220100,00000000,퓨쳐켐,2016,2016-12-01,폐지사유: 코스닥시장 이전상장,True
+220110,00000000,드림티엔터테인먼트,2020,2020-04-10,폐지사유: 사업보고서 법정제출기한('20.3.30限)내 미제출,True
+220180,00000000,핸디소프트,2016,2016-11-24,폐지사유: 코스닥시장 이전상장,True
+220250,00000000,카이노스메드,2020,2020-06-08,폐지사유: 피흡수합병,True
+220630,00000000,맘스터치,2022,2022-05-31,폐지사유: 상장폐지 신청('22.03.30),True
+221200,00000000,유진스팩3호,2018,2018-04-17,폐지사유: 상장예비심사 청구서 미제출로 관리종목 지정 후 1개월 이내 동 사유 미해소,True
+221610,00000000,자안바이오,2022,2022-01-05,폐지사유: 발행한 어음 또는 수표가 주거래은행에 의하여 최종부도로 결정되거나 거래은행에 의한 거래정지,True
+221670,00000000,주노콜렉션,2019,2019-07-16,폐지사유: 지정자문인 선임계약 해지 후 30일 이내 미체결(2019.7.2 限),True
+221800,00000000,유투바이오,2023,2023-11-02,폐지사유: 코스닥시장 이전상장,True
+221950,00000000,케이비드림3호스팩,2018,2018-03-30,폐지사유: 상장예비심사 청구서 미제출로 관리종목 지정 후 1개월 이내 동 사유 미해소,True
+222160,00000000,NPX,2021,2021-11-18,폐지사유: 코스닥시장 이전상장,True
+222390,00000000,케이비제8호스팩,2018,2018-03-13,폐지사유: 상장예비심사 청구서 미제출로 관리종목 지정 후 1개월 이내 동 사유 미해소,True
+222520,00000000,솔트웍스,2016,2016-12-05,폐지사유: 피흡수합병,True
+223040,00000000,교보5호스팩,2018,2018-03-30,폐지사유: 상장예비심사 청구서 미제출로 관리종목 지정 후 1개월 이내 동 사유 미해소,True
+224020,00000000,에스케이씨에스,2024,2024-03-29,폐지사유: 피흡수합병,True
+224090,00000000,정다운,2016,2016-06-29,폐지사유: 피흡수합병,True
+224880,00000000,SGA클라우드서비스,2021,2021-05-06,폐지사유: 분산요건 미달,True
+225220,00000000,제놀루션,2020,2020-07-24,폐지사유: 코스닥시장 이전상장,True
+225330,00000000,씨엠에스에듀,2022,2022-03-17,폐지사유: 피흡수합병,True
+225440,00000000,이베스트스팩3호,2018,2018-05-28,폐지사유: 상장예비심사 청구서 미제출로 관리종목 지정 후 1개월 이내 동 사유 미해소,True
+225650,00000000,쿠첸,2019,2019-09-16,폐지사유: 타법인의 완전자회사로 편입,True
+225850,00000000,미애부,2022,2022-04-27,폐지사유: 감사의견 의견거절(감사범위제한 및 계속기업 존속불확실성),True
+225860,00000000,엠앤씨생명과학,2022,2022-04-27,폐지사유: 감사의견 의견거절(감사범위제한 및 계속기업 존속불확실성),True
+226350,00000000,아이엠텍,2021,2021-06-11,폐지사유: 감사의견 거절(감사범위 제한),True
+226400,00000000,오스테오닉,2018,2018-02-22,폐지사유: 코스닥시장 이전상장,True
+226610,00000000,한국비엔씨,2019,2019-12-03,폐지사유: 피흡수합병,True
+226850,00000000,키움스팩4호,2018,2018-06-05,폐지사유: 상장예비심사 청구서 미제출로 관리종목 지정 후 1개월 이내 동 사유 미해소,True
+228180,00000000,티씨엠생명과학,2020,2020-08-07,폐지사유: 포괄적 주식교환에 따른 상장폐지 신청('20.7.17),True
+228760,00000000,지노믹트리,2019,2019-03-27,폐지사유: 코스닥시장 이전상장,True
+229000,00000000,젠큐릭스,2020,2020-06-25,폐지사유: 코스닥시장 이전상장,True
+229480,00000000,줌인터넷,2019,2019-06-10,폐지사유: 피흡수합병,True
+230400,00000000,자비스,2019,2019-11-15,폐지사유: 피흡수합병,True
+230490,00000000,동부제4호스팩,2018,2018-07-26,폐지사유: 상장예비심사 청구서 미제출로 관리종목 지정 후 1개월 이내 동 사유 미해소,True
+232270,00000000,케이비제9호스팩,2018,2018-10-12,폐지사유: 상장예비심사 청구서 미제출로 관리종목 지정 후 1개월 이내 동 사유 미해소,True
+232290,00000000,SGA시스템즈,2017,2017-12-22,폐지사유: 피흡수합병,True
+232330,00000000,SK3호스팩,2019,2019-08-30,폐지사유: 상장예비심사 청구서 미제출로 관리종목 지정 후 1개월 이내 동 사유 미해소,True
+232360,00000000,아스팩오일,2017,2017-07-25,폐지사유: 지정자문인 선임계약 해지 후 30일이내 미체결(2017.07.11限),True
+232680,00000000,라온로보틱스,2021,2021-06-17,폐지사유: 코스닥시장 이전상장,True
+232830,00000000,아이티센피엔에스,2023,2023-06-29,폐지사유: 코스닥시장 이전상장,True
+233190,00000000,미래자원엠엘,2017,2017-12-28,폐지사유: 피흡수합병,True
+234100,00000000,폴라리스세원,2017,2017-10-20,폐지사유: 코스닥시장 이전상장,True
+235010,00000000,하이에이아이1호스팩,2018,2018-10-12,폐지사유: 상장예비심사 청구서 미제출로 관리종목 지정 후 1개월 이내 동 사유 미해소,True
+235090,00000000,태경피엔에스,2018,2018-05-09,폐지사유: 감사의견 거절(감사범위 제한),True
+237720,00000000,케이엠제약,2018,2018-09-28,폐지사유: 피흡수합병,True
+239890,00000000,피엔에이치테크,2021,2021-02-16,폐지사유: 코스닥시장 이전상장,True
+240340,00000000,인터코스,2022,2022-05-17,폐지사유: 외부감사인의 감사의견 의견거절,True
+240540,00000000,한국4호스팩,2019,2019-01-29,폐지사유: 상장예비심사 청구서 미제출로 관리종목 지정 후 1개월 이내 동 사유 미해소,True
+241510,00000000,이에스산업,2021,2021-01-26,폐지사유: 지정자문인 선임계약 해지 후 30일 이내 미체결(2021.1.13 限),True
+242350,00000000,피엔아이컴퍼니,2023,2023-09-18,폐지사유: 지정자문인 선임계약 해지 후 30일 이내 미체결(2023.9.4 限),True
+242420,00000000,본느,2018,2018-10-29,폐지사유: 피흡수합병,True
+242850,00000000,영현무역,2019,2019-05-22,폐지사유: 지정자문인 선임계약 해지 후 30일 이내 미체결(2019.5.8 限),True
+245030,00000000,스페이스솔루션,2019,2019-02-27,폐지사유: 상장폐지 신청('19.1.25),True
+246250,00000000,에스엘에스바이오,2023,2023-10-20,폐지사유: 코스닥시장 이전상장,True
+246830,00000000,시냅스엠,2018,2018-05-14,폐지사유: 감사의견 거절(계속기업 존속능력에 대한 불확실성),True
+247300,00000000,인프라웨어테크놀러지,2019,2019-12-06,폐지사유: 피흡수합병,True
+248020,00000000,젬,2024,2024-04-05,폐지사유: 외부감사인의 감사의견 의견거절,True
+250300,00000000,제이에스피브이,2019,2019-03-04,폐지사유: 지정자문인 선임계약 해지 후 30일이내 미체결(2019.2.1 限),True
+251540,00000000,에스와이제이,2018,2018-09-07,폐지사유: 감사의견 거절(감사범위 제한),True
+251960,00000000,엠에프엠코리아,2020,2020-12-30,폐지사유: 피흡수합병,True
+252370,00000000,유쎌,2020,2020-02-27,폐지사유: 지정자문인 선임계약 해지 후 30일 이내 미체결(2020.2.13 限),True
+252940,00000000,에스엠로보틱스,2018,2018-04-25,폐지사유: 감사의견 거절(감사범위 제한 및 계속기업 존속능력에 대한 불확실성),True
+253840,00000000,수젠텍,2019,2019-05-28,폐지사유: 코스닥시장 이전상장,True
+256090,00000000,패션플랫폼,2018,2018-02-13,폐지사유: 피흡수합병,True
+256940,00000000,킵스파마,2017,2017-09-06,폐지사유: 코스닥시장 이전상장,True
+257730,00000000,신한제3호스팩,2019,2019-10-01,폐지사유: 상장예비심사 청구서 미제출로 관리종목 지정 후 1개월 이내 동 사유 미해소,True
+258250,00000000,셀젠텍,2024,2024-08-30,폐지사유: 지정자문인 선임계약 해지 후 30일 이내 미체결(2024.8.16 限),True
+260490,00000000,캐로스,2017,2017-11-29,폐지사유: 지정자문인 선임계약 해지 후 30일이내 미체결(2017.11.15限),True
+260970,00000000,에스앤디,2021,2021-09-29,폐지사유: 코스닥시장 이전상장,True
+262760,00000000,엔케이맥스,2019,2019-07-04,폐지사유: 피흡수합병,True
+262830,00000000,대신밸런스제4호스팩,2019,2019-10-10,폐지사유: 상장예비심사 청구서 미제출로 관리종목 지정 후 1개월 이내 동 사유 미해소,True
+263540,00000000,어스앤에어로스페이스,2024,2024-11-06,폐지사유: 기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정,True
+264290,00000000,한화에이스스팩3호,2019,2019-12-06,폐지사유: 상장예비심사 청구서 미제출로 관리종목 지정 후 1개월 이내 동 사유 미해소,True
+265480,00000000,미래에셋대우스팩1호,2020,2020-01-03,폐지사유: 상장예비심사 청구서 미제출로 관리종목 지정 후 1개월 이내 동 사유 미해소,True
+265920,00000000,한화수성스팩,2020,2020-01-15,폐지사유: 상장예비심사 청구서 미제출로 관리종목 지정후 1개월 이내 동사유를 미해소,True
+267060,00000000,명진홀딩스,2023,2023-04-18,폐지사유: 지정자문인 선임계약 해지 후 30일 이내 미체결(2023.4.4 限),True
+267810,00000000,앙츠,2023,2023-04-04,폐지사유: 지정자문인 선임계약 해지 후 30일 이내 미체결(2023.3.21 限),True
+270020,00000000,이십일스토어,2022,2022-04-14,폐지사유: 사업보고서 법정제출기한('22.3.31限) 내 미제출,True
+270660,00000000,에브리봇,2021,2021-07-28,폐지사유: 코스닥시장 이전상장,True
+271400,00000000,알로이스,2019,2019-10-01,폐지사유: 피흡수합병,True
+271740,00000000,한국제5호스팩,2020,2020-03-03,폐지사유: 상장예비심사 청구서 미제출로 관리종목 지정 후 1개월 이내 동 사유 미해소,True
+271780,00000000,비엔에프코퍼레이션,2020,2020-11-05,폐지사유: 상장폐지 신청('20.10.13),True
+271850,00000000,다이오진,2023,2023-04-12,폐지사유: 지정자문인 선임계약 해지 후 30일 이내 미체결(2023.3.29 限),True
+272420,00000000,극동자동화,2018,2018-11-15,폐지사유: 상장폐지 신청('18.11.5),True
+276920,00000000,IBKS제7호스팩,2020,2020-06-18,폐지사유: 상장예비심사 청구서 미제출로 관리종목 지정 후 1개월 이내 동 사유 미해소,True
+277480,00000000,신한제4호스팩,2020,2020-08-20,폐지사유: 상장예비심사 청구서 미제출로 관리종목 지정 후 1개월 이내 동 사유 미해소,True
+277880,00000000,티에스아이,2020,2020-07-22,폐지사유: 코스닥시장 이전상장,True
+278380,00000000,원바이오젠,2021,2021-02-09,폐지사유: 피흡수합병,True
+279410,00000000,한화에이스스팩4호,2020,2020-07-03,폐지사유: 상장예비심사 청구서 미제출로 관리종목 지정 후 1개월 이내 동 사유 미해소,True
+279600,00000000,미디어젠,2019,2019-11-05,폐지사유: 코스닥시장 이전상장,True
+281310,00000000,바이오시네틱스,2023,2023-06-12,폐지사유: 외부감사인의 감사의견 의견거절,True
+281410,00000000,한국제6호스팩,2020,2020-07-27,폐지사유: 상장예비심사 청구서 미제출로 관리종목 지정 후 1개월 이내 동 사유 미해소,True
+282690,00000000,동아타이어,2024,2024-10-08,폐지사유: 해산 사유 발생,True
+284420,00000000,휴럼,2021,2021-07-27,폐지사유: 피흡수합병,True
+284610,00000000,TS트릴리온,2020,2020-12-30,폐지사유: 피흡수합병,True
+285770,00000000,라이프사이언스테크놀로지,2023,2023-06-12,폐지사유: 외부감사인의 감사의견 의견거절,True
+286000,00000000,씨엔티드림,2024,2024-10-07,폐지사유: 외부감사인의 감사의견 의견거절,True
+287410,00000000,제이시스메디칼,2024,2024-11-07,폐지사유: 타법인의 완전자회사로 편입,True
+290510,00000000,코리아센터,2022,2022-12-16,폐지사유: 피흡수합병,True
+291210,00000000,한국제7호스팩,2021,2021-01-15,폐지사유: 상장예비심사 청구서 미제출로 관리종목 지정 후 1개월 이내 동사유 미해소,True
+298870,00000000,우리벤처파트너스,2023,2023-08-28,폐지사유: 타법인의 완전자회사로 편입,True
+299670,00000000,에스엠비나,2024,2024-08-16,폐지사유: 지정자문인 선임계약 해지 후 30일 이내 미체결(2024.8.1 限),True
+302550,00000000,리메드,2019,2019-12-06,폐지사유: 코스닥시장 이전상장,True
+303360,00000000,프로티아,2023,2023-06-16,폐지사유: 코스닥시장 이전상장,True
+307070,00000000,SK4호스팩,2021,2021-07-13,폐지사유: 상장예비심사 청구서 미제출로 관리종목 지정 후 1개월 이내 동사유 미해소,True
+307160,00000000,하나머스트제6호스팩,2021,2021-07-08,폐지사유: 상장예비심사 청구서 미제출로 관리종목 지정 후 1개월 이내 동사유 미해소,True
+309900,00000000,티티씨디펜스,2022,2022-06-16,폐지사유: 외부감사인의 감사의견 의견거절,True
+310840,00000000,엔에이치스팩13호,2021,2021-09-23,폐지사유: 상장예비심사청구서 미제출,True
+311270,00000000,키움제5호스팩,2021,2021-08-02,폐지사유: 상장예비심사 청구서 미제출로 관리종목 지정 후 1개월 이내 동사유 미해소,True
+311840,00000000,대원모방,2020,2020-02-27,폐지사유: 지정자문인 선임계약 해지 후 30일 이내 미체결(2020.2.13 限),True
+313750,00000000,유안타제4호스팩,2021,2021-12-07,폐지사유: 상장예비심사 청구서 미제출로 관리종목 지정 후 1개월 이내 동사유 미해소,True
+314130,00000000,지놈앤컴퍼니,2020,2020-12-23,폐지사유: 코스닥시장 이전상장,True
+317030,00000000,케이비17호스팩,2021,2021-11-04,폐지사유: 상장예비심사 청구서 미제출로 관리종목 지정 후 1개월 이내 동사유 미해소,True
+317320,00000000,한화에스비아이스팩,2021,2021-12-07,폐지사유: 상장예비심사 청구서 미제출로 관리종목 지정 후 1개월 이내 동 사유 미해소,True
+322190,00000000,베른,2024,2024-04-25,폐지사유: 감사의견 의견거절(감사범위제한),True
+323210,00000000,이베스트이안스팩1호,2022,2022-02-17,폐지사유: 상장예비심사 청구서 미제출로 관리종목 지정 후 1개월 이내 동사유 미해소,True
+323350,00000000,다원넥스뷰,2024,2024-06-11,폐지사유: 신한제9호기업인수목적(주)와의 스팩소멸합병,True
+323940,00000000,케이비제18호스팩,2022,2022-02-04,폐지사유: 상장예비심사 청구서 미제출로 관리종목 지정 후 1개월 이내 동사유 미해소,True
+327970,00000000,케어룸의료산업,2022,2022-03-11,폐지사유: 상장폐지 신청,True
+329020,00000000,오션스톤,2022,2022-12-27,폐지사유: 지정자문인 선임계약 해지 후 30일 이내 미체결(2022.12.13 限),True
+329050,00000000,구스앤홈,2021,2021-04-13,폐지사유: 사업보고서 법정제출기한('21.3.31限)내 미제출,True
+329560,00000000,상상인이안제2호스팩,2022,2022-04-04,폐지사유: 상장예비심사 청구서 미제출로 관리종목 지정 후 1개월 이내 동사유 미해소,True
+330990,00000000,케이비제19호스팩,2022,2022-05-09,폐지사유: 상장예비심사 청구서 미제출로 관리종목 지정 후 1개월 이내 동사유 미해소,True
+332710,00000000,하나금융14호스팩,2022,2022-09-26,폐지사유: 상장예비심사 청구서 미제출로 관리종목 지정 후 1개월 이내 동사유 미해소,True
+337450,00000000,SK5호스팩,2022,2022-10-18,폐지사유: 피흡수합병(스팩소멸합병),True
+340120,00000000,하이제5호스팩,2022,2022-07-28,폐지사유: 상장예비심사 청구서 미제출로 관리종목 지정 후 1개월 이내 동사유 미해소,True
+340350,00000000,SK6호스팩,2022,2022-10-18,폐지사유: 상장예비심사 청구서 미제출로 관리종목 지정 후 1개월 이내 동 사유 미해소,True
+341160,00000000,하나금융15호스팩,2022,2022-12-23,폐지사유: 피흡수합병(스팩소멸합병),True
+342550,00000000,케이비제20호스팩,2022,2022-12-29,폐지사유: 피흡수합병(스팩소멸합병),True
+343510,00000000,하나금융16호스팩,2023,2023-03-02,폐지사유: 상장예비심사 청구서 미제출로 관리종목 지정 후 1개월 이내 동 사유 미해소,True
+344050,00000000,신영스팩6호,2023,2023-02-17,폐지사유: 피흡수합병(스팩소멸합병),True
+344860,00000000,이노진,2023,2023-02-20,폐지사유: 코스닥시장 이전상장,True
+347140,00000000,케이프이에스제4호,2022,2022-10-31,폐지사유: 상장예비심사 청구서 미제출로 관리종목 지정 후 1개월 이내 동 사유 미해소,True
+348840,00000000,데이드림엔터,2023,2023-08-10,폐지사유: 상장폐지 신청,True
+349720,00000000,이베스트스팩5호,2022,2022-12-26,폐지사유: 상장예비심사 청구서 미제출로 관리종목 지정 후 1개월 이내 동 사유 미해소,True
+351340,00000000,IBKS제13호스팩,2023,2023-02-21,폐지사유: 상장예비심사 청구서 미제출로 관리종목 지정 후 1개월 이내 동 사유 미해소,True
+353060,00000000,에이치엠씨제5호스팩,2023,2023-09-22,폐지사유: 상장예비심사 청구서 미제출로 관리종목 지정 후 1개월 이내 동 사유 미해소,True
+353070,00000000,에이치엠씨제4호스팩,2023,2023-03-10,폐지사유: 상장예비심사 청구서 미제출로 관리종목 지정 후 1개월 이내 동 사유 미해소,True
+353490,00000000,미래에셋대우스팩 5호,2023,2023-05-17,폐지사유: 상장예비심사 청구서 미제출로 관리종목 지정 후 1개월 이내 동 사유 미해소,True
+354230,00000000,폭스소프트,2021,2021-09-01,폐지사유: 지정자문인 선임계약 해지 후 30일 이내 미체결(2021.8.18 限),True
+366330,00000000,신한제7호스팩,2023,2023-09-18,폐지사유: 피흡수합병(스팩소멸합병),True
+367340,00000000,DB금융스팩8호,2023,2023-07-17,폐지사유: 상장예비심사 청구서 미제출로 관리종목 지정 후 1개월 이내 동 사유 미해소,True
+367360,00000000,DB금융스팩9호,2023,2023-11-24,폐지사유: 피흡수합병(스팩소멸합병),True
+367460,00000000,유안타제7호스팩,2022,2022-12-08,폐지사유: 피흡수합병(스팩소멸합병),True
+367480,00000000,유안타제8호스팩,2023,2023-09-08,폐지사유: 피흡수합병(스팩소멸합병),True
+372290,00000000,하나머스트7호스팩,2024,2024-02-19,폐지사유: 피흡수합병(스팩소멸합병),True
+373340,00000000,유진스팩6호,2023,2023-12-13,폐지사유: 상장예비심사 청구서 미제출로 관리종목 지정 후 1개월 이내 동 사유 미해소,True
+377400,00000000,하이제6호스팩,2024,2024-01-25,폐지사유: 피흡수합병(스팩소멸합병),True
+377630,00000000,삼성스팩4호,2023,2023-12-27,폐지사유: 상장예비심사 청구서 미제출로 관리종목 지정 후 1개월 이내 동 사유 미해소,True
+380320,00000000,삼성머스트스팩5호,2024,2024-01-23,폐지사유: 상장예비심사 청구서 미제출로 관리종목 지정 후 1개월 이내 동 사유 미해소,True
+380440,00000000,엔에이치스팩19호,2024,2024-01-02,폐지사유: SPAC 상장예비심사청구서 미제출 등,True
+386580,00000000,한화플러스제2호스팩,2024,2024-06-17,폐지사유: 상장예비심사 청구서 미제출로 관리종목 지정 후 1개월 이내 동 사유 미해소,True
+387310,00000000,대신밸런스제10호스팩,2023,2023-03-16,폐지사유: 피흡수합병(스팩소멸합병),True
+388220,00000000,하나금융19호스팩,2023,2023-05-23,폐지사유: 피흡수합병(스팩소멸합병),True
+388800,00000000,유진스팩7호,2024,2024-07-02,폐지사유: 상장예비심사청구서 미제출로 관리종목 지정 후 1개월 이내 동 사유 미해소,True
+391060,00000000,엔에이치스팩20호,2024,2024-05-14,폐지사유: 상장예비심사 청구서 미제출로 관리종목 지정 후 1개월 이내 동사유 미해소,True
+393210,00000000,토마토시스템,2023,2023-04-27,폐지사유: 코스닥시장 이전상장,True
+393360,00000000,신한제8호스팩,2024,2024-04-30,폐지사유: 합병상장예비심사신청서 미제출로 관리종목 지정 후 1개월 이내 동 사유 미해소,True
+396770,00000000,엔에이치스팩22호,2023,2023-04-28,폐지사유: 피흡수합병(스팩소멸합병),True
+397500,00000000,대신밸런스제11호스팩,2023,2023-03-09,폐지사유: 피흡수합병(스팩소멸합병),True
+397880,00000000,교보11호스팩,2024,2024-03-25,폐지사유: 피흡수합병(스팩소멸합병),True
+400560,00000000,하나금융20호스팩,2023,2023-09-19,폐지사유: 피흡수합병(스팩소멸합병),True
+400840,00000000,하이제7호스팩,2024,2024-07-26,폐지사유: 상장예비심사 청구서 미제출로 관리종목 지정 후 1개월 이내 동 사유 미해소,True
+404950,00000000,디비금융스팩10호,2024,2024-01-04,폐지사유: 피흡수합병(스팩소멸합병),True
+405350,00000000,IBKS제17호스팩,2023,2023-11-03,폐지사유: 피흡수합병(스팩소멸합병),True
+405640,00000000,신한제9호스팩,2024,2024-06-11,폐지사유: 피흡수합병(스팩소멸합병),True
+406760,00000000,하나금융21호스팩,2024,2024-12-26,폐지사유: 피흡수합병(스팩소멸합병),True
+409570,00000000,한국제10호스팩,2023,2023-08-31,폐지사유: 피흡수합병(스팩소멸합병),True
+415580,00000000,상상인제3호스팩,2024,2024-12-04,폐지사유: 합병상장예비심사신청서 미제출로 관리종목 지정 후 1개월 이내 동 사유 미해소,True
+418170,00000000,하나금융22호스팩,2024,2024-12-19,폐지사유: 피흡수합병(스팩소멸합병),True
+419270,00000000,신영스팩7호,2024,2024-04-25,폐지사유: 피흡수합병(스팩소멸합병),True
+419700,00000000,이브이파킹서비스,2024,2024-12-12,폐지사유: 지정자문인 선임계약 해지 후 30일 이내 미체결('24.11.28限),True
+421800,00000000,교보12호스팩,2024,2024-11-19,폐지사유: 피흡수합병(스팩소멸합병),True
+426550,00000000,IBKS제19호스팩,2024,2024-02-15,폐지사유: 피흡수합병(스팩소멸합병),True
+426670,00000000,대신밸런스제12호스팩,2023,2023-04-20,폐지사유: 피흡수합병(스팩소멸합병),True
+427950,00000000,하나금융23호스팩,2024,2024-02-01,폐지사유: 피흡수합병(스팩소멸합병),True
+430230,00000000,하나금융24호스팩,2024,2024-09-03,폐지사유: 피흡수합병(스팩소멸합병),True
+430460,00000000,한화플러스제3호스팩,2024,2024-12-13,폐지사유: 피흡수합병(스팩소멸합병),True
+436530,00000000,케이비제22호스팩,2024,2024-05-03,폐지사유: 피흡수합병(스팩소멸합병),True
+436610,00000000,한국제11호스팩,2024,2024-09-27,폐지사유: 피흡수합병(스팩소멸합병),True
+438220,00000000,대신밸런스제13호스팩,2024,2024-11-20,폐지사유: 피흡수합병(스팩소멸합병),True
+440200,00000000,케이비제23호스팩,2023,2023-11-03,폐지사유: 피흡수합병(스팩소멸합병),True
+450410,00000000,엔에이치스팩28호,2023,2023-12-21,폐지사유: 피흡수합병(스팩소멸합병),True
+900040,00000000,차이나그레이트,2020,2020-05-22,"폐지사유: 법정제출기한까지 사업보고서를 제출하지 아니한 후, 법정제출기한의 다음날부터 10일이내에 사업보고서를 제출하지 아니함",True
+900050,00000000,중국원양자원,2017,2017-09-27,폐지사유: 감사의견 의견거절,True
+900080,00000000,에스앤씨엔진그룹,2021,2021-06-14,"폐지사유: 법정제출기한까지 사업보고서를 제출하지 아니한 후, 법정제출기한의 다음날부터 10일이내에 사업보고서를 제출하지 아니함",True
+900090,00000000,차이나하오란,2019,2019-01-02,폐지사유: 제28조제1항제9호에 따라 관리종목 지정 후 공시규정 제19조 제1항에 따른 분기보고서 법정기한 내 미제출,True
+900130,00000000,웨이포트,2017,2017-07-25,폐지사유: 상장폐지 신청('17.06.22),True
+900180,00000000,완리,2018,2018-05-23,폐지사유: 감사의견거절(감사범위 제한),True
+950010,00000000,평산차업,2015,2015-11-05,폐지사유: 시가총액 미달,True
+950100,00000000,SBI모기지,2015,2015-01-07,폐지사유: 신청에 의한 상장폐지,True
+950180,00000000,SNK,2022,2022-05-18,폐지사유: 상장폐지 신청('22.04.14),True
