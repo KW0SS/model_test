@@ -105,6 +105,7 @@ STATUS_PRIORITY = {
 }
 
 DEFAULT_THRESHOLDS = [round(value / 100, 2) for value in range(5, 100)]
+MAX_ALLOWED_MISSING_FEATURES = 11
 
 
 def read_csv(path: Path) -> pd.DataFrame:

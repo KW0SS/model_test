@@ -1,0 +1,10 @@
+{
+  "input_rows": 552,
+  "excluded_rows": 256,
+  "kept_rows": 296,
+  "kept_unique_codes": 296,
+  "missing_financial_codes": 0,
+  "resolved_missing_codes": 0,
+  "downloadable_missing_codes": 0,
+  "ratio_refresh_done": false
+}

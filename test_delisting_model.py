@@ -133,6 +133,55 @@ class DelistingModelTests(unittest.TestCase):
         self.assertTrue(bool(row_b[INCLUDE_COLUMN]))
         self.assertEqual(len(excluded_y_minus_1), 1)
 
+    def test_deduplicate_prefers_more_complete_row_when_priority_matches(self) -> None:
+        rows = [
+            build_base_row(status="?곸옣湲곗뾽", company="A", code="000010", corp_code="00000010", year=2020, source_file="a.json"),
+            build_base_row(status="?곸옣湲곗뾽", company="A", code="000010", corp_code="00000010", year=2020, source_file="b.json"),
+        ]
+        frame = pd.DataFrame(rows)
+        frame.loc[0, FEATURE_COLUMNS[:3]] = pd.NA
+        frame["__has_data_bool"] = True
+        frame["__fs_priority"] = 1
+        frame["__status_priority"] = 2
+        frame["__feature_missing_count"] = frame[FEATURE_COLUMNS].isna().sum(axis=1)
+
+        deduped = deduplicate_company_year(frame)
+
+        self.assertEqual(len(deduped), 1)
+        self.assertEqual(deduped.iloc[0][SOURCE_FILE_COLUMN], "b.json")
+
+    def test_future_delist_labeling_excludes_status_conflict_and_sparse_rows(self) -> None:
+        rows = [
+            build_base_row(status="?곸옣湲곗뾽", company="A", code="000001", corp_code="00000001", year=2020, source_file="a.json"),
+            build_base_row(status="?곹룓湲곗뾽", company="A", code="000001", corp_code="00000001", year=2020, source_file="b.json"),
+            build_base_row(status="?곸옣湲곗뾽", company="B", code="000002", corp_code="00000002", year=2020),
+        ]
+        for column in FEATURE_COLUMNS[:12]:
+            rows[-1][column] = pd.NA
+
+        events = pd.DataFrame(
+            [
+                {
+                    CODE_COLUMN: "000001",
+                    CORP_CODE_COLUMN: "00000001",
+                    COMPANY_COLUMN: "A",
+                    EVENT_YEAR_COLUMN: 2022,
+                    "event_date": "20220331",
+                    EVENT_SOURCE_COLUMN: "unit-test",
+                    Y_MINUS_1_EXCLUDED_COLUMN: True,
+                }
+            ]
+        )
+
+        labeled, _, _ = build_labeled_dataset(pd.DataFrame(rows), events)
+        conflict_row = labeled[(labeled[CODE_COLUMN] == "000001") & (labeled[YEAR_COLUMN] == 2020)].iloc[0]
+        sparse_row = labeled[(labeled[CODE_COLUMN] == "000002") & (labeled[YEAR_COLUMN] == 2020)].iloc[0]
+
+        self.assertEqual(conflict_row[EXCLUDE_REASON_COLUMN], "status_conflict_duplicate")
+        self.assertFalse(bool(conflict_row[INCLUDE_COLUMN]))
+        self.assertEqual(sparse_row[EXCLUDE_REASON_COLUMN], "too_many_missing_features")
+        self.assertFalse(bool(sparse_row[INCLUDE_COLUMN]))
+
 
 if __name__ == "__main__":
     unittest.main()

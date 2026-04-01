@@ -18,6 +18,12 @@ from delisting_shared import (
     FS_COLUMN,
     HAS_DATA_COLUMN,
     INCLUDE_COLUMN,
+    MAX_ALLOWED_MISSING_FEATURES,
+    PREDICTION_ELIGIBLE_COLUMN,
+    PREDICTION_LABEL_COLUMN,
+    PREDICTION_MODEL_COLUMN,
+    PREDICTION_PROBABILITY_COLUMN,
+    PREDICTION_SKIP_REASON_COLUMN,
     SOURCE_FILE_COLUMN,
     STATUS_COLUMN,
     STATUS_PRIORITY,
@@ -58,6 +64,7 @@ def coerce_financial_frame(df: pd.DataFrame) -> pd.DataFrame:
     working["__has_data_bool"] = parse_bool_series(working[HAS_DATA_COLUMN])
     working["__fs_priority"] = working[FS_COLUMN].astype("string").fillna("").str.upper().eq("CFS").astype(int)
     working["__status_priority"] = working[STATUS_COLUMN].astype("string").map(STATUS_PRIORITY).fillna(-1).astype(int)
+    working["__feature_missing_count"] = working[FEATURE_COLUMNS].isna().sum(axis=1).astype(int)
     return working
 
 
@@ -215,9 +222,20 @@ def build_conflict_report(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def deduplicate_company_year(df: pd.DataFrame) -> pd.DataFrame:
-    ordered = df.sort_values(
-        by=[CODE_COLUMN, YEAR_COLUMN, "__has_data_bool", "__fs_priority", "__status_priority", SOURCE_FILE_COLUMN],
-        ascending=[True, True, False, False, False, True],
+    working = df.copy()
+    if "__feature_missing_count" not in working.columns:
+        working["__feature_missing_count"] = 0
+    ordered = working.sort_values(
+        by=[
+            CODE_COLUMN,
+            YEAR_COLUMN,
+            "__has_data_bool",
+            "__fs_priority",
+            "__status_priority",
+            "__feature_missing_count",
+            SOURCE_FILE_COLUMN,
+        ],
+        ascending=[True, True, False, False, False, True, True],
         kind="mergesort",
     )
     return ordered.drop_duplicates(subset=[CODE_COLUMN, YEAR_COLUMN], keep="first").reset_index(drop=True)
@@ -264,7 +282,9 @@ def build_labeled_dataset(raw_df: pd.DataFrame, events_df: pd.DataFrame) -> tupl
     deduped = deduplicate_company_year(coerced)
     deduped = deduped.merge(group_stats, on=[CODE_COLUMN, YEAR_COLUMN], how="left")
     labeled = attach_events(deduped, events_df)
+    labeled["missing_feature_count"] = labeled[FEATURE_COLUMNS].isna().sum(axis=1).astype(int)
     labeled["all_feature_null"] = labeled[FEATURE_COLUMNS].isna().all(axis=1)
+    labeled["too_many_missing_features"] = labeled["missing_feature_count"] > MAX_ALLOWED_MISSING_FEATURES
 
     event_year = labeled[EVENT_YEAR_COLUMN].astype("Int64")
     positive_mask = labeled[EVENT_YEAR_COLUMN].notna() & (labeled[YEAR_COLUMN] == (event_year - 2))
@@ -281,6 +301,8 @@ def build_labeled_dataset(raw_df: pd.DataFrame, events_df: pd.DataFrame) -> tupl
     labeled[EXCLUDE_REASON_COLUMN] = ""
     labeled.loc[labeled["__has_data_bool"].eq(False), EXCLUDE_REASON_COLUMN] = "has_data_false"
     labeled.loc[labeled["all_feature_null"], EXCLUDE_REASON_COLUMN] = "all_features_null"
+    labeled.loc[labeled["too_many_missing_features"], EXCLUDE_REASON_COLUMN] = "too_many_missing_features"
+    labeled.loc[labeled["status_conflict"].fillna(False), EXCLUDE_REASON_COLUMN] = "status_conflict_duplicate"
     labeled.loc[excluded_event_or_after_mask, EXCLUDE_REASON_COLUMN] = "event_year_or_later"
     labeled.loc[excluded_y_minus_1_mask, EXCLUDE_REASON_COLUMN] = "excluded_y_minus_1"
 
@@ -300,7 +322,9 @@ def build_labeled_dataset(raw_df: pd.DataFrame, events_df: pd.DataFrame) -> tupl
         "raw_row_count",
         "status_values",
         "status_conflict",
+        "missing_feature_count",
         "all_feature_null",
+        "too_many_missing_features",
         EVENT_YEAR_COLUMN,
         EVENT_DATE_COLUMN,
         EVENT_SOURCE_COLUMN,
@@ -347,6 +371,8 @@ def prepare_training_data(
         "excluded_event_or_after_rows": int((labeled_df[EXCLUDE_REASON_COLUMN] == "event_year_or_later").sum()),
         "excluded_has_data_false_rows": int((labeled_df[EXCLUDE_REASON_COLUMN] == "has_data_false").sum()),
         "excluded_all_features_null_rows": int((labeled_df[EXCLUDE_REASON_COLUMN] == "all_features_null").sum()),
+        "excluded_too_many_missing_rows": int((labeled_df[EXCLUDE_REASON_COLUMN] == "too_many_missing_features").sum()),
+        "excluded_status_conflict_rows": int((labeled_df[EXCLUDE_REASON_COLUMN] == "status_conflict_duplicate").sum()),
         "train_rows": int(len(train_frame)),
         "train_positive_rows": int((train_frame[TARGET_COLUMN] == 1).sum()),
         "train_negative_rows": int((train_frame[TARGET_COLUMN] == 0).sum()),
@@ -373,10 +399,16 @@ def prepare_prediction_data(df: pd.DataFrame) -> PreparedPredictionData:
     output["제외사유"] = pd.Series([""] * len(output), dtype="string")
 
     deduped = deduplicate_company_year(working)
+    deduped["missing_feature_count"] = deduped[FEATURE_COLUMNS].isna().sum(axis=1).astype(int)
     deduped["all_feature_null"] = deduped[FEATURE_COLUMNS].isna().all(axis=1)
-    eligible = deduped[deduped["__has_data_bool"] & ~deduped["all_feature_null"]].copy()
+    deduped["too_many_missing_features"] = deduped["missing_feature_count"] > MAX_ALLOWED_MISSING_FEATURES
+    eligible = deduped[
+        deduped["__has_data_bool"] & ~deduped["all_feature_null"] & ~deduped["too_many_missing_features"]
+    ].copy()
 
-    skip_frame = deduped[[CODE_COLUMN, YEAR_COLUMN, "__has_data_bool", "all_feature_null"]].copy()
+    skip_frame = deduped[
+        [CODE_COLUMN, YEAR_COLUMN, "__has_data_bool", "all_feature_null", "too_many_missing_features"]
+    ].copy()
     skip_frame["제외사유"] = ""
     skip_frame.loc[~skip_frame["__has_data_bool"], "제외사유"] = "has_data_false"
     skip_frame.loc[skip_frame["all_feature_null"], "제외사유"] = "all_features_null"
@@ -395,6 +427,51 @@ def prepare_prediction_data(df: pd.DataFrame) -> PreparedPredictionData:
         "eligible_rows": int(len(eligible)),
         "skipped_has_data_false_rows": int((~deduped["__has_data_bool"]).sum()),
         "skipped_all_feature_null_rows": int(deduped["all_feature_null"].sum()),
+    }
+    return PreparedPredictionData(eligible, output, stats)
+
+
+def prepare_prediction_data(df: pd.DataFrame) -> PreparedPredictionData:
+    working = coerce_financial_frame(df)
+    output = df.copy()
+    output[PREDICTION_PROBABILITY_COLUMN] = pd.Series([pd.NA] * len(output), dtype="Float64")
+    output[PREDICTION_LABEL_COLUMN] = pd.Series([pd.NA] * len(output), dtype="string")
+    output[PREDICTION_MODEL_COLUMN] = pd.Series([pd.NA] * len(output), dtype="string")
+    output[PREDICTION_ELIGIBLE_COLUMN] = False
+    output[PREDICTION_SKIP_REASON_COLUMN] = pd.Series([""] * len(output), dtype="string")
+
+    deduped = deduplicate_company_year(working)
+    deduped["missing_feature_count"] = deduped[FEATURE_COLUMNS].isna().sum(axis=1).astype(int)
+    deduped["all_feature_null"] = deduped[FEATURE_COLUMNS].isna().all(axis=1)
+    deduped["too_many_missing_features"] = deduped["missing_feature_count"] > MAX_ALLOWED_MISSING_FEATURES
+    eligible = deduped[
+        deduped["__has_data_bool"] & ~deduped["all_feature_null"] & ~deduped["too_many_missing_features"]
+    ].copy()
+
+    skip_frame = deduped[
+        [CODE_COLUMN, YEAR_COLUMN, "__has_data_bool", "all_feature_null", "too_many_missing_features"]
+    ].copy()
+    skip_frame[PREDICTION_SKIP_REASON_COLUMN] = ""
+    skip_frame.loc[~skip_frame["__has_data_bool"], PREDICTION_SKIP_REASON_COLUMN] = "has_data_false"
+    skip_frame.loc[skip_frame["all_feature_null"], PREDICTION_SKIP_REASON_COLUMN] = "all_features_null"
+    skip_frame.loc[skip_frame["too_many_missing_features"], PREDICTION_SKIP_REASON_COLUMN] = "too_many_missing_features"
+    output = output.merge(
+        skip_frame[[CODE_COLUMN, YEAR_COLUMN, PREDICTION_SKIP_REASON_COLUMN]],
+        on=[CODE_COLUMN, YEAR_COLUMN],
+        how="left",
+        suffixes=("", "__derived"),
+    )
+    derived_skip_column = f"{PREDICTION_SKIP_REASON_COLUMN}__derived"
+    output[PREDICTION_SKIP_REASON_COLUMN] = output[derived_skip_column].combine_first(output[PREDICTION_SKIP_REASON_COLUMN])
+    output = output.drop(columns=[derived_skip_column])
+
+    stats = {
+        "input_rows": int(len(df)),
+        "deduped_rows": int(len(deduped)),
+        "eligible_rows": int(len(eligible)),
+        "skipped_has_data_false_rows": int((~deduped["__has_data_bool"]).sum()),
+        "skipped_all_feature_null_rows": int(deduped["all_feature_null"].sum()),
+        "skipped_too_many_missing_rows": int(deduped["too_many_missing_features"].sum()),
     }
     return PreparedPredictionData(eligible, output, stats)
 

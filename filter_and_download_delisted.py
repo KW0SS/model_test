@@ -59,6 +59,11 @@ EXCLUDE_RULES: tuple[ExcludeRule, ...] = (
     ExcludeRule("privatization", ("완전자회사", "완전자회사화", "완전자회사로 편입")),
 )
 
+EXCLUDE_RULES = EXCLUDE_RULES + (
+    ExcludeRule("voluntary_delisting", ("신청에 의한 상장폐지", "상장폐지 신청")),
+    ExcludeRule("expiry_delisting", ("존속기간 만료",)),
+)
+
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
