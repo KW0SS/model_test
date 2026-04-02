@@ -1,0 +1,4 @@
+﻿experiment,train_start_year,train_end_year,valid_year,test_year,feature_count,train_rows,valid_rows,test_rows,train_positive_rows,valid_positive_rows,test_positive_rows,selected_threshold,valid_precision,valid_recall,valid_f1,test_precision,test_recall,test_f1,test_tp,test_fp,test_fn,test_tn
+baseline_single_year,2015,2020,2021,2022,30,11366,2173,2253,100,10,16,0.99,0.375,0.3,0.3333333333333333,0.375,0.1875,0.25,3,5,13,2232
+single_year_year_standardized,2015,2020,2021,2022,60,11366,2173,2253,100,10,16,0.99,0.07407407407407407,0.2,0.10810810810810811,0.14285714285714285,0.25,0.18181818181818182,4,24,12,2213
+trend_3year_year_standardized,2017,2020,2021,2022,150,7117,1952,2048,63,9,16,0.96,0.0425531914893617,0.2222222222222222,0.07142857142857142,0.08333333333333333,0.25,0.125,4,44,12,1988

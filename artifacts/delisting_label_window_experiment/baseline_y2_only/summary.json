@@ -1,0 +1,30 @@
+{
+  "experiment": "baseline_y2_only",
+  "positive_offsets": [
+    2
+  ],
+  "excluded_offsets": [
+    1
+  ],
+  "selected_threshold": 0.99,
+  "usable_rows": 22802,
+  "positive_rows": 126,
+  "train_positive_rows": 100,
+  "valid_positive_rows": 10,
+  "test_positive_rows": 16,
+  "valid_precision": 0.375,
+  "valid_recall": 0.3,
+  "valid_f1": 0.3333333333333333,
+  "test_precision": 0.375,
+  "test_recall": 0.1875,
+  "test_f1": 0.25,
+  "test_tp": 3,
+  "test_fp": 5,
+  "test_fn": 13,
+  "test_tn": 2232,
+  "excluded_window_rows": 262,
+  "excluded_event_or_after_rows": 221,
+  "positive_offset_breakdown": {
+    "2": 126
+  }
+}

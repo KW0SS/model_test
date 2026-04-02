@@ -1,0 +1,30 @@
+{
+  "experiment": "experiment_y1_y2",
+  "positive_offsets": [
+    1,
+    2
+  ],
+  "excluded_offsets": [],
+  "selected_threshold": 0.95,
+  "usable_rows": 22912,
+  "positive_rows": 236,
+  "train_positive_rows": 170,
+  "valid_positive_rows": 26,
+  "test_positive_rows": 25,
+  "valid_precision": 0.30303030303030304,
+  "valid_recall": 0.38461538461538464,
+  "valid_f1": 0.3389830508474576,
+  "test_precision": 0.2962962962962963,
+  "test_recall": 0.32,
+  "test_f1": 0.3076923076923077,
+  "test_tp": 8,
+  "test_fp": 19,
+  "test_fn": 17,
+  "test_tn": 2218,
+  "excluded_window_rows": 0,
+  "excluded_event_or_after_rows": 221,
+  "positive_offset_breakdown": {
+    "1": 110,
+    "2": 126
+  }
+}
